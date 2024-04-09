@@ -4,6 +4,6 @@ Bienvenidos al repositorio del Proyecto del Curso del Grupo 3. Aquí encontrará
 
 ## Índice
 
-1. [Integrantes del grupo](Integrantes\integrantes.md)
+1. [Integrantes del grupo](Integrantes/integrantes.md)
 
 2. Otra sección
