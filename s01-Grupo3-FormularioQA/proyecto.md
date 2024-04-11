@@ -6,4 +6,6 @@ Bienvenidos al repositorio del Proyecto del Curso del Grupo 3. Aquí encontrará
 
 1. [Integrantes del grupo](Integrantes/integrantes.md)
 
-2. Otra sección
+2. [Descripcion del proyecto](Proyecto\Descripcion.md)
+
+3. Otra sección

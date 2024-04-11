@@ -28,5 +28,6 @@ Desarrllo de un formulario que permita al agente de departamento de calidad ingr
 
 # Stack Tecnológico
 
-* Lenguaje de Programación: Java
+* Lenguaje de Programación: Por decidir
+* Lenguaje de backend: Por decidir
 * Motor de BD: PostgreSQL
