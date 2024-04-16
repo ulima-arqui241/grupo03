@@ -37,5 +37,13 @@ Desarrollar una pagina web para la venta de tickets de conciertos. La pagina per
 # Modelo de negocio
 * Segmento de clientes: jovenes y organizadores de eventos
 * Canales: Pagina web
+* Ventaja injusta: No tener resticcion en el tipo de tecnologia a implementar
 * Propuesta de valor: Permitir la venta y compra de tickets rapidamente
-* 
+* Solucion: 
+    * Simplicidad
+    * Velocidad
+    * Seguridad
+* Metricas claves: 
+    * Carga en la aplicacion (DDOS)
+    * Manejo de colas
+    * Velocidad en la compra de tickets.
