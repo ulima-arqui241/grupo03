@@ -18,7 +18,7 @@ Desarrollar una pagina web para la venta de tickets de conciertos. La pagina per
 * Mantenedor: Nosotros
 * Jefe de proyecto: Alejandro
 * Ingeniero de pruebas: Nosotros
-* Usuario: Personas que quieran comprar tickets para conciertos
+* Usuario: Event manager y personas que quieran comprar tickets para conciertos
 
 
 # Stack Tecnológico
@@ -26,3 +26,16 @@ Desarrollar una pagina web para la venta de tickets de conciertos. La pagina per
 * Framework de Frontend: React
 * Framework de backend: Por decidir
 * Motor de BD: PostgreSQL
+
+# Como deberia funcionar
+* El cliente puede crear eventos para vender tickets, estos eventos pueden ser masivos o pequeños.
+    * A partir de eventos medianos, el cliente debe de pagar un monto fijo por alojar la venta de tickets en la aplicacion.
+    * Los clientes pueden modificar el precio de los tickets, aplicando un 3% de comision a nosotros.
+* Los usuarios pueden comprar uno o varios tickets, indicando por DNI la identidad de la persona.
+
+
+# Modelo de negocio
+* Segmento de clientes: jovenes y organizadores de eventos
+* Canales: Pagina web
+* Propuesta de valor: Permitir la venta y compra de tickets rapidamente
+* 
