@@ -147,4 +147,12 @@ Volver a [Proyecto](\..\proyecto.md)
     * El usuario debe de ser notificado por correo para confirmar la compra
     * El usuario debe de ser notificado por correo para confirmar la cancelacion de la compra
 
+## Modulo 4: Registro de usuarios
+
+### Requerimientos funcionales
+
+## Modulo 5: Panel de Administrador
+
+### Requerimientos funcionales
+
 
