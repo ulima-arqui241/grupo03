@@ -1,7 +1,60 @@
-# Requerimientos funcionales
+Volver a [Proyecto](\..\proyecto.md)
+# Requerimientos funcionales 
 
 ## Modulo 1: Compra de Tickets
 
+### Requerimientos funcionales
+
+1. Catalogo de eventos:
+    * La pagina debe de mostrar los eventos disponibles con el nombre del evento, marca del evento, fecha limite de compra y numero de asientos disponibles
+    * Esta lista debe cargar rapidamente y mostrar los eventos disponibles
+    * El orden de los eventos debe de ser por defecto por fecha limite de compra y debe de poder ser ordenado por el numero de asientos disponibles y por nombre del evento
+    * Se puede realizar una busqueda por nombre de evento o marca de evento
+2. Compra de tickets:
+    * El usuario debe de poder seleccionar un evento y la cantidad de tickets que desea comprar
+    * El usuario debe de poder ver el precio total de la compra
+    * En caso de que multiples usuarios quieran comprar el mismo ticket, el sistema debe de trasladar a la persona a una lista de espera
+    * El usuario debe de poder ingresar su informacion de contacto y de pago al final de la espera
+    * El usuario debe de poder ver un resumen de la compra antes de confirmar la compra
+    * El usuario debe de poder poner la compra en una canasta y seguir comprando
+3. Confirmacion de compra:
+    * El usuario debe de recibir un correo electronico con la confirmacion de la compra
+    * El usuario debe de recibir un correo electronico con el ticket de compra
+    * El usuario debe de poder ver el ticket de compra en la pagina
+    * El usuario debe de poder ver el historial de compras
+4. Cancelacion de compra:
+    * El usuario debe de poder cancelar la compra antes de la fecha limite de compra
+    * El usuario debe de recibir un correo electronico con la confirmacion de la cancelacion
+    * El usuario debe de poder ver el historial de compras
+5. Historial de compras:
+    * El usuario debe de poder ver las compras realizadas en la pagina
+    * El usuario debe de poder ver los tickets de compra
+    * El usuario debe de poder ver el estado de la compra
+    * El usuario debe de poder ver la fecha de compra
+    * El usuario debe de poder ver la fecha limite de compra
+    * El usuario debe de poder cancelar la compra si esta dentro de la fecha limite de compra
+6. Lista de espera:
+    * El usuario debe de poder ver la lista de espera de un evento
+    * El usuario debe de poder ver su posicion en la lista de espera
+    * El usuario debe de poder ver el tiempo estimado de espera
+    * El usuario debe de poder cancelar la espera antes de que se le asigne un ticket
+7. Notificaciones:
+    * El usuario debe de ser notificado por correo en caso de que se le asigne un ticket
+    * El usuario debe de ser notificado por correo en caso de que el evento se cancele
+    * El usuario debe de ser notificado por correo en caso de que el evento se posponga
+    * El usuario debe de ser notificado por correo en caso de que el evento se cambie de lugar
+    * El usuario debe de ser notificado por correo en caso de que los tickets se agoten
+    * El usuario debe de ser notificado por correo para confirmar la compra
+    * El usuario debe de ser notificado por correo para confirmar la cancelacion de la compra
+
+### Requerimientos de atributos de calidad
+
+#### Rendimiento
+
+| Escenario | Estímulo | Fuente del estímulo | Respuesta | Medida de respuesta | Entorno | Artefacto | 
+| ------------- |:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
+| Multiples usuarios acceden a la pagina | Multiples usuarios acceden a la pagina al mismo tiempo | Usuarios que acceden a la pagina | La pagina debe de cargar rapidamente y mostrar los eventos disponibles | Tiempo promedio de respuesta de la pagina, no debe de exceder los 5 segundos | Momento de alta demanda durante la venta de tickets para eventos populares | Pagina de compra de tickets |
+| Multiples usuarios compran el mismo ticket | Multiples usuarios compran el mismo ticket al mismo tiempo | Usuarios que compran el mismo ticket | El sistema debe de trasladar a la persona a una lista de espera | Tiempo promedio de respuesta del sistema, no debe de exceder los 3 segundos | Momento de alta demanda durante la venta de tickets para eventos populares | Pagina de compra de tickets |
 
 ## Modulo 2: Panel de Managers
 
