@@ -38,14 +38,7 @@ Volver a [Proyecto](\..\proyecto.md)
     * El usuario debe de poder ver su posicion en la lista de espera
     * El usuario debe de poder ver el tiempo estimado de espera
     * El usuario debe de poder cancelar la espera antes de que se le asigne un ticket
-7. Notificaciones:
-    * El usuario debe de ser notificado por correo en caso de que se le asigne un ticket
-    * El usuario debe de ser notificado por correo en caso de que el evento se cancele
-    * El usuario debe de ser notificado por correo en caso de que el evento se posponga
-    * El usuario debe de ser notificado por correo en caso de que el evento se cambie de lugar
-    * El usuario debe de ser notificado por correo en caso de que los tickets se agoten
-    * El usuario debe de ser notificado por correo para confirmar la compra
-    * El usuario debe de ser notificado por correo para confirmar la cancelacion de la compra
+
 
 ### Requerimientos de atributos de calidad
 
@@ -138,6 +131,20 @@ Volver a [Proyecto](\..\proyecto.md)
     * Justificación: Decisión previa de la organización para el almacenamiento de datos en la aplicación.
 
 
-## Modulo 3: TBD
+## Modulo 3: Notificaciones
+
+### Requerimientos funcionales
+
+1. Notificaciones de Compra:
+    * El sistema debe enviar notificaciones a los usuarios sobre la confirmación de la compra de tickets.
+    * Debe incluir detalles de la compra, como el evento, la cantidad de tickets, el precio total y la fecha del evento.
+    * Los usuarios deben poder recibir notificaciones por correo electrónico y/o mensajes de texto.
+    * El usuario debe de ser notificado por correo en caso de que se le asigne un ticket
+    * El usuario debe de ser notificado por correo en caso de que el evento se cancele
+    * El usuario debe de ser notificado por correo en caso de que el evento se posponga
+    * El usuario debe de ser notificado por correo en caso de que el evento se cambie de lugar
+    * El usuario debe de ser notificado por correo en caso de que los tickets se agoten
+    * El usuario debe de ser notificado por correo para confirmar la compra
+    * El usuario debe de ser notificado por correo para confirmar la cancelacion de la compra
 
 
