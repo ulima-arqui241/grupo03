@@ -20,12 +20,9 @@ Volver a [Proyecto](\..\proyecto.md)
 3. Confirmacion de compra:
     * El usuario debe de recibir un correo electronico con la confirmacion de la compra
     * El usuario debe de recibir un correo electronico con el ticket de compra
-    * El usuario debe de poder ver el ticket de compra en la pagina
-    * El usuario debe de poder ver el historial de compras
 4. Cancelacion de compra:
     * El usuario debe de poder cancelar la compra antes de la fecha limite de compra
-    * El usuario debe de recibir un correo electronico con la confirmacion de la cancelacion
-    * El usuario debe de poder ver el historial de compras
+    * El usuario debe de recibir un correo electronico con la confirmacion de la cancelacion de la compra
 5. Historial de compras:
     * El usuario debe de poder ver las compras realizadas en la pagina
     * El usuario debe de poder ver los tickets de compra
@@ -46,8 +43,8 @@ Volver a [Proyecto](\..\proyecto.md)
 
 | Escenario | Estímulo | Fuente del estímulo | Respuesta | Medida de respuesta | Entorno | Artefacto | 
 | ------------- |:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
-| Multiples usuarios acceden a la pagina | Multiples usuarios acceden a la pagina al mismo tiempo | Usuarios que acceden a la pagina | La pagina debe de cargar rapidamente y mostrar los eventos disponibles | Tiempo promedio de respuesta de la pagina, no debe de exceder los 5 segundos | Momento de alta demanda durante la venta de tickets para eventos populares | Pagina de compra de tickets |
-| Multiples usuarios compran el mismo ticket | Multiples usuarios compran el mismo ticket al mismo tiempo | Usuarios que compran el mismo ticket | El sistema debe de trasladar a la persona a una lista de espera | Tiempo promedio de respuesta del sistema, no debe de exceder los 3 segundos | Momento de alta demanda durante la venta de tickets para eventos populares | Pagina de compra de tickets |
+| E1.1 | Multiples usuarios acceden al home page al mismo tiempo | Usuarios que acceden a la pagina | La pagina debe de cargar rapidamente y mostrar los eventos disponibles | Tiempo promedio de respuesta inicial de la pagina, no debe de exceder el segundo y el tiempo de carga final, no debe de exceder los 2 segundos | Momento de alta demanda durante la venta de tickets para eventos populares | Pagina de compra de tickets |
+| E1.2 | Multiples usuarios compran el mismo ticket al mismo tiempo | Usuarios que compran el mismo ticket | El sistema debe de trasladar a la persona a una lista de espera | Tiempo promedio de respuesta del sistema, no debe de exceder los 5 segundos | Momento de alta demanda durante la venta de tickets para eventos populares | Pagina de compra de tickets |
 
 ## Modulo 2: Panel de Managers
 
