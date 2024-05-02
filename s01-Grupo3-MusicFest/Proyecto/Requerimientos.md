@@ -76,6 +76,10 @@ Volver a [Proyecto](\..\proyecto.md)
 | ------------- |:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
 | 
 
+## Decision de arquitectura
+
+Se trabajara este modulo como un microservicio
+
 ## Modulo 2: Panel de Managers
 
 ### Requerimientos funcionales
@@ -181,5 +185,4 @@ Volver a [Proyecto](\..\proyecto.md)
 ## Modulo 5: Panel de Administrador
 
 ### Requerimientos funcionales
-
 
