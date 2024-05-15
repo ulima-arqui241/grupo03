@@ -1,4 +1,4 @@
-# Arquitectura basada en eventos
+# Arquitectura orientada a eventos
 
 ## Concepto
 
@@ -39,12 +39,13 @@ Esta demo sera desplegada mediante docker.
 
 ### Creditos
 
-[Demo kafka por aranaea](https://github.com/aranaea/kafka-demo)
-[Eventbridge architecture demo](https://github.com/mavi888/sam-eventbridge)
+* [Demo kafka por aranaea](https://github.com/aranaea/kafka-demo)
+* [Eventbridge architecture demo](https://github.com/mavi888/sam-eventbridge)
 
 ### Diagrama de la demo aplicada para la aplicacion de Music Fest
 
-Presentando arquitectura empleando Demo Kafka![alt text](Event_diagram.png)
+![alt text](Event_diagram.png)
+
 
 Se plantea una arquitectura en la nube en AWS, en la cual mediante un api gateway se pueda acceder a una funcion lambda la cual produce eventos a los diversos topicos dentro del cluster kafka y los consumidores reciben estos eventos y los procesan independientemente. La idea principal es que en la capa previa a la generacion de eventos se realize la logica de interacion y usabilidad de la aplicacion y una vez enviado el evento, la capa de microservicios se dedique a procesar los eventos resultantes.
 
@@ -52,3 +53,4 @@ Un ejemplo de esto seria cuando un cliente compra un ticket siguiendo los pasos 
 
 ### Video de la demo
 
+[Link para el video](https://youtu.be/woO-zkfgR9s)
