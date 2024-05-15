@@ -76,6 +76,10 @@ Volver a [Proyecto](\..\proyecto.md)
 | ------------- |:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
 | 
 
+### Decision de arquitectura
+
+Se trabajara este modulo como un microservicio
+
 ## Modulo 2: Panel de Managers
 
 ### Requerimientos funcionales
@@ -157,6 +161,9 @@ Volver a [Proyecto](\..\proyecto.md)
     * Restricción: Utilización de PostgreSQL como motor de base de datos.
     * Justificación: Decisión previa de la organización para el almacenamiento de datos en la aplicación.
 
+### Decision de arquitectura
+
+Se trabajara este modulo como un microservicio
 
 ## Modulo 3: Notificaciones
 
@@ -174,12 +181,23 @@ Volver a [Proyecto](\..\proyecto.md)
     * El usuario debe de ser notificado por correo para confirmar la compra
     * El usuario debe de ser notificado por correo para confirmar la cancelacion de la compra
 
+### Decision de arquitectura
+
+Se trabajara este modulo como un microservicio
+
 ## Modulo 4: Registro de usuarios
 
 ### Requerimientos funcionales
+
+### Decision de arquitectura
+
+Se trabajara este modulo como un microservicio
 
 ## Modulo 5: Panel de Administrador
 
 ### Requerimientos funcionales
 
+### Decision de arquitectura
+
+Se trabajara este modulo como un microservicio
 
