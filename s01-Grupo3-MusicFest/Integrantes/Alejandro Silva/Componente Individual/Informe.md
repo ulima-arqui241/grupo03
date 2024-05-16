@@ -62,7 +62,7 @@ Un ejemplo de esto seria cuando un cliente compra un ticket siguiendo los pasos 
     * Clonar el [demo kafka por aranaea](https://github.com/aranaea/kafka-demo)
 * Python
     * Instalar python para testing
-    * Importar los requermientos de la carpeta testing
+    * Importar los requermientos de la carpeta testing con `pip install -r requirements.txt`
 * Docker (Windows)
     * Instalar [docker desktop](https://docs.docker.com/desktop/install/windows-install/)
     * Inicializar la aplicacion, la cual inicializa el servicio de docker
