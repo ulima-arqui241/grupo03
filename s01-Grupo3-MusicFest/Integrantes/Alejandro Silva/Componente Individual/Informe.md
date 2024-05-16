@@ -36,6 +36,7 @@ Esta demo sera desplegada mediante docker.
 * Zookeeper
 * Servidor en Python
 * Docker
+* Git
 
 ### Creditos
 
@@ -46,7 +47,6 @@ Esta demo sera desplegada mediante docker.
 
 ![alt text](Event_diagram.png)
 
-
 Se plantea una arquitectura en la nube en AWS, en la cual mediante un api gateway se pueda acceder a una funcion lambda la cual produce eventos a los diversos topicos dentro del cluster kafka y los consumidores reciben estos eventos y los procesan independientemente. La idea principal es que en la capa previa a la generacion de eventos se realize la logica de interacion y usabilidad de la aplicacion y una vez enviado el evento, la capa de microservicios se dedique a procesar los eventos resultantes.
 
 Un ejemplo de esto seria cuando un cliente compra un ticket siguiendo los pasos a pasos de la aplicacion. Una vez completados los pasos, se procede a enviar el evento de compra de ticket. Este evento en enviado al servicio de compra y al servicio de api de terceros. Estos microservicios generan sus respuestas las cuales se pueden producir el evento de compra completada y se envia el evento al topico relacionado a notificaciones y servicio de correo.
@@ -54,3 +54,19 @@ Un ejemplo de esto seria cuando un cliente compra un ticket siguiendo los pasos 
 ### Video de la demo
 
 [Link para el video](https://youtu.be/woO-zkfgR9s)
+
+### Consideraciones tecnicas de la demo
+
+* Git
+    * Instalar git
+    * Clonar el [demo kafka por aranaea](https://github.com/aranaea/kafka-demo)
+* Python
+    * Instalar python para testing
+    * Importar los requermientos de la carpeta testing
+* Docker (Windows)
+    * Instalar [docker desktop](https://docs.docker.com/desktop/install/windows-install/)
+    * Inicializar la aplicacion, la cual inicializa el servicio de docker
+    * Utilizar el comando `docker compose up` en el directorio de la demo
+    * Una vez los servicios fueron compuestos, realizar perticiones POST/GET para las pruebas
+    * Para terminar los servicios utilizar `CTRL + CMD`
+    * Para eliminar los servicios utilizar `docker compose down`
