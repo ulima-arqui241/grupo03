@@ -8,6 +8,8 @@ Johan A. Oblitas Mantilla nació en Lima, Perú en 2002. Es estudiante de Ingeni
 * Correo: johan.oblitas171@gmail.com
 * Usuario Github: JohanOblitas
 
+[Ver Informe (Componente Individual): Comparación de Frameworks Front End](Componente%20Individual/Informe.md)
+
 [Ver integrantes](../integrantes.md)
 
 [Regresar al índice](../../proyecto.md)

@@ -4,10 +4,14 @@ Bienvenidos al repositorio del Proyecto del Curso del Grupo 3. Aquí encontrará
 
 ## Índice
 
-1. [Integrantes del grupo](Integrantes/integrantes.md)
+1. [Integrantes del grupo](Integrantes/Integrantes.md)
 
 2. [Descripcion del proyecto](Proyecto/Descripcion.md)
 
 3. [Requerimientos del proyecto](Proyecto/Requerimientos.md)
 
-4. Otra sección
+4. [Tácticas del proyecto](Proyecto/Tacticas.md)
+
+5. [Propuesta de arquitectura]()
+
+6. [Implementación del proyecto (estructura inicial)]()

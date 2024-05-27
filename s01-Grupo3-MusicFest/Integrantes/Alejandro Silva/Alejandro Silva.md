@@ -8,6 +8,8 @@ Alejandro Silva, egresado de la carrera de ingenieria de sistema en la universid
 * Correo: silvasolisdelbarrio@gmail.com
 * Usuario Github: Alexandritax
 
+[Ver Informe (Componente Individual): Arquitectura orientada a Eventos](Componente%20Individual/Informe.md)
+
 [Ver Integrantes](../integrantes.md)
 
 [Regresar al Indice](../../proyecto.md)
