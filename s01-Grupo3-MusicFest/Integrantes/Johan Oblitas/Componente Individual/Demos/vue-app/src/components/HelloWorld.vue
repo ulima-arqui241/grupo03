@@ -1,6 +1,6 @@
 <template>
   <div>
-
+    <b>Vue: Aplicación 'To-Do'</b>
     <ul>
       <li v-for="todo in todos" v-bind:key="todo">{{ todo }}</li>
     </ul>
