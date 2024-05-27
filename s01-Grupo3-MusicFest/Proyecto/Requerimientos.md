@@ -1,4 +1,5 @@
-Volver a [Proyecto](\..\proyecto.md)
+[Regresar al Indice](../../proyecto.md)
+
 # Requerimientos funcionales 
 
 ## Modulo 1: Compra de Tickets
