@@ -1,4 +1,4 @@
-[Regresar al Indice](../../proyecto.md)
+[Regresar al Indice](../proyecto.md)
 
 # Requerimientos funcionales 
 
