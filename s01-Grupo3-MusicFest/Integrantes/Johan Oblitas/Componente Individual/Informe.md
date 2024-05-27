@@ -75,3 +75,5 @@ Se propone desarrollar una aplicación sencilla en cada uno de los frameworks es
     * Dirigirse a la carpeta del proyecto React (cd s01-Grupo3-MusicFest\Integrantes\Johan Oblitas\Componente Individual\Demos\vue-app)
     * Ejecutar el comando 'npm install' para instalar las dependencias del proyecto
     * Ejecutar el comando 'npm run serve' para inicializar la demo
+
+[Regresar al índice](../../../proyecto.md)

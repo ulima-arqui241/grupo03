@@ -1,6 +1,6 @@
 [Regresar al Indice](../proyecto.md)
 
-# Requerimientos funcionales 
+# Requerimientos
 
 ## Modulo 1: Compra de Tickets
 
@@ -37,49 +37,19 @@
     * El usuario debe de poder ver el tiempo estimado de espera
     * El usuario debe de poder cancelar la espera antes de que se le asigne un ticket
 
-
-### Requerimientos de atributos de calidad
+### Requerimientos de atributo de calidad
 
 #### Rendimiento
 
 | Escenario | Estímulo | Fuente del estímulo | Respuesta | Medida de respuesta | Entorno | Artefacto | 
 | ------------- |:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
-| E1.1 | Multiples usuarios acceden al home page al mismo tiempo | Usuarios que acceden a la pagina | La pagina debe de cargar rapidamente y mostrar los eventos disponibles | Tiempo promedio de respuesta inicial de la pagina, no debe de exceder el segundo y el tiempo de carga final, no debe de exceder los 2 segundos | Momento de alta demanda durante la venta de tickets para eventos populares | Pagina de compra de tickets |
-| E1.2 | Multiples usuarios compran el mismo ticket al mismo tiempo | Usuarios que compran el mismo ticket | El sistema debe de trasladar a la persona a una lista de espera | Tiempo promedio de respuesta del sistema, no debe de exceder los 5 segundos | Momento de alta demanda durante la venta de tickets para eventos populares | Pagina de compra de tickets |
-
-#### Disponibilidad
-
-| Escenario | Estímulo | Fuente del estímulo | Respuesta | Medida de respuesta | Entorno | Artefacto | 
-| ------------- |:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
-| 
-
-#### Modificalidad
-
-| Escenario | Estímulo | Fuente del estímulo | Respuesta | Medida de respuesta | Entorno | Artefacto | 
-| ------------- |:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
-| 
-
-#### Seguridad
-
-| Escenario | Estímulo | Fuente del estímulo | Respuesta | Medida de respuesta | Entorno | Artefacto | 
-| ------------- |:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
-| 
-
-#### Usabilidad
-
-| Escenario | Estímulo | Fuente del estímulo | Respuesta | Medida de respuesta | Entorno | Artefacto | 
-| ------------- |:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
-| 
-
-### Escalabilidad
-
-| Escenario | Estímulo | Fuente del estímulo | Respuesta | Medida de respuesta | Entorno | Artefacto | 
-| ------------- |:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
-| 
+| E1 | Multiples usuarios acceden al home page al mismo tiempo | Usuarios que acceden a la pagina | La pagina debe de cargar rapidamente y mostrar los eventos disponibles | Tiempo promedio de respuesta inicial de la pagina, no debe de exceder el segundo y el tiempo de carga final, no debe de exceder los 2 segundos | Momento de alta demanda durante la venta de tickets para eventos populares | Pagina de compra de tickets |
+| E2 | Multiples usuarios compran el mismo ticket al mismo tiempo | Usuarios que compran el mismo ticket | El sistema debe de trasladar a la persona a una lista de espera | Tiempo promedio de respuesta del sistema, no debe de exceder los 5 segundos | Momento de alta demanda durante la venta de tickets para eventos populares | Pagina de compra de tickets |
 
 ### Decision de arquitectura
 
 Se trabajara este modulo como un microservicio
+
 
 ## Modulo 2: Panel de Managers
 
@@ -111,60 +81,18 @@ Se trabajara este modulo como un microservicio
 8.	Notificaciones:
     * El sistema debe enviar notificaciones a los managers sobre las ventas de tickets y cualquier otra información relevante sobre sus eventos.
 
+### Requerimientos de atributo de calidad
 
-### Requerimientos de atributos de calidad
-
-#### Rendimiento
-
-| Escenario | Estímulo | Fuente del estímulo | Respuesta | Medida de respuesta | Entorno | Artefacto | 
-| ------------- |:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
-| Gran cantidad de managers ingresan al panel | Acceso concurrente de múltiples managers al panel de control durante la venta de tickets. | Managers autenticados que acceden al sistema para gestionar eventos. | El sistema debe responder a las solicitudes de acceso al panel de control de manera eficiente, sin demoras significativas. | Tiempo promedio de respuesta del sistema cuando hay múltiples managers activos, no debe exceder los 5 segundos. | Momento de alta demanda durante la venta de tickets para eventos populares. | Panel de Managers |
-
-#### Disponibilidad
+#### Modificabilidad
 
 | Escenario | Estímulo | Fuente del estímulo | Respuesta | Medida de respuesta | Entorno | Artefacto | 
 | ------------- |:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
-| Managers ingresan en cualquier horario del dia | Intento de acceso al panel de control de managers en cualquier momento. | Managers autenticados o no autenticados que intentan acceder al sistema. | El sistema debe estar disponible y responder a las solicitudes de acceso en todo momento. | Porcentaje de tiempo de disponibilidad del sistema, debe ser del 98%. | Considerar la necesidad de disponibilidad constante debido a la naturaleza comercial de la plataforma. | Panel de Managers |
-
-#### Modificalidad
-
-| Escenario | Estímulo | Fuente del estímulo | Respuesta | Medida de respuesta | Entorno | Artefacto | 
-| ------------- |:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
-| Cambio de estructura de precio de los tickets | Solicitud de cambio en la estructura de precios de los tickets por parte de los managers. | Managers autenticados que desean actualizar los precios de los tickets de un evento. | El sistema debe permitir cambios en la estructura de precios de manera oportuna y precisa. | Tiempo promedio para implementar cambios en los precios de los tickets, no debe exceder los 15 segundos. | Necesidad de adaptación rápida a cambios en las estrategias de precios del cliente o demandas del mercado. | Panel de Managers |
-
-#### Seguridad
-
-| Escenario | Estímulo | Fuente del estímulo | Respuesta | Medida de respuesta | Entorno | Artefacto | 
-| ------------- |:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
-| Acceso no autorizado | Intento de acceso no autorizado al panel de control de managers. | Intentos de hackers u otros usuarios no autorizados. | El sistema debe detectar y prevenir intentos de acceso no autorizados. | Número de intentos de acceso no autorizado detectados y bloqueados en un período de tiempo determinado. | Persistente amenaza de ataques externos debido a la naturaleza pública de la plataforma web. | Panel de Managers  |
-
-#### Usabilidad
-
-| Escenario | Estímulo | Fuente del estímulo | Respuesta | Medida de respuesta | Entorno | Artefacto | 
-| ------------- |:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
-| Manager busca visualizar la posible interfaz del usuario | Interacción de los managers con la interfaz de usuario del panel de control. | Managers autenticados que gestionan eventos y ventas de tickets. | La interfaz de usuario debe ser intuitiva y fácil de usar para los managers. | Evaluación de usabilidad mediante encuestas o pruebas de usuario, la puntuación de usabilidad debe ser superior a 4.0. | Necesidad de facilitar la gestión eficiente de eventos en un entorno de alta presión durante períodos de venta activa. | Panel de Managers |
-
-### Escalabilidad
-
-| Escenario | Estímulo | Fuente del estímulo | Respuesta | Medida de respuesta | Entorno | Artefacto | 
-| ------------- |:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
-| Incremento de managers en la plataforma | Incremento en el número de eventos y clientes utilizando la plataforma. | Crecimiento orgánico de la popularidad y demanda del servicio. | El sistema debe ser capaz de manejar un aumento en el volumen de eventos y clientes sin degradación significativa del rendimiento. | Capacidad del sistema para manejar un número creciente de eventos y clientes, medida a través de pruebas de carga y escalabilidad. | Previsión de aumento de la actividad durante eventos populares o temporadas de conciertos. | Panel de Managers |
-
-### Restricciones
-
-1. Frontend:
-    * Restricción: Utilización de React como framework de frontend.
-    * Justificación: Preferencia de la organización para el desarrollo de interfaces de usuario.
-2. Backend:
-    * Restricción: Utilización de ExpressJS como framework de backend.
-    * Justificación: Preferencia técnica para el desarrollo del backend de la aplicación.
-3. Motor de Base de Datos:
-    * Restricción: Utilización de PostgreSQL como motor de base de datos.
-    * Justificación: Decisión previa de la organización para el almacenamiento de datos en la aplicación.
+| E.1. Cambio de estructura de precio de los tickets | Solicitud de cambio en la estructura de precios de los tickets por parte de los managers. | Managers autenticados que desean actualizar los precios de los tickets de un evento. | El sistema debe permitir cambios en la estructura de precios de manera oportuna y precisa. | Tiempo promedio para implementar cambios en los precios de los tickets, no debe exceder los 15 segundos. | Necesidad de adaptación rápida a cambios en las estrategias de precios del cliente o demandas del mercado. | Panel de Managers |
 
 ### Decision de arquitectura
 
 Se trabajara este modulo como un microservicio
+
 
 ## Modulo 3: Notificaciones
 
@@ -181,6 +109,14 @@ Se trabajara este modulo como un microservicio
     * El usuario debe de ser notificado por correo en caso de que los tickets se agoten
     * El usuario debe de ser notificado por correo para confirmar la compra
     * El usuario debe de ser notificado por correo para confirmar la cancelacion de la compra
+
+### Requerimientos de atributo de calidad
+
+#### X.
+
+| Escenario | Estímulo | Fuente del estímulo | Respuesta | Medida de respuesta | Entorno | Artefacto | 
+| ------------- |:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
+| E.1 |  |  |  |  |  |  |
 
 ### Decision de arquitectura
 
@@ -202,3 +138,14 @@ Se trabajara este modulo como un microservicio
 
 Se trabajara este modulo como un microservicio
 
+## Restricciones
+
+1. Frontend:
+    * Restricción: Utilización de React como framework de frontend.
+    * Justificación: Preferencia de la organización para el desarrollo de interfaces de usuario.
+2. Backend:
+    * Restricción: Utilización de ExpressJS como framework de backend.
+    * Justificación: Preferencia técnica para el desarrollo del backend de la aplicación.
+3. Motor de Base de Datos:
+    * Restricción: Utilización de PostgreSQL como motor de base de datos.
+    * Justificación: Decisión previa de la organización para el almacenamiento de datos en la aplicación.
