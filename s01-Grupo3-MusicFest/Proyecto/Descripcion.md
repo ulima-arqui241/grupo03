@@ -35,6 +35,7 @@ Desarrollar una pagina web para la venta de tickets de conciertos. La pagina per
 
 ## Microservicios
 
+* Orquestador de microservicios: Kubernetes
 * Framework de backend: Dependiendo del microservicio
 * Motor de BD: MongoDB
 
