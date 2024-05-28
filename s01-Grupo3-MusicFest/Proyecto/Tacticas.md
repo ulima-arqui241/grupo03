@@ -1,3 +1,12 @@
 [Regresar al Indice](../proyecto.md)
 
 # Tácticas
+
+**Disponibilidad**
+1. Redundancia Activa (Hot Spare):
+Implementar servidores adicionales que procesan las mismas entradas en paralelo.
+    1. Aplicación : Configurar múltiples instancias de cada microservicio (Aplicación Web UI, Sistema de Notificaciones) usando Kubernetes para orquestar y balancear la carga. Esto asegurará que si una instancia falla, otra puede tomar su lugar sin interrumpir el servicio.
+2. Monitorización: Implementar herramientas de monitorización para supervisar la salud del sistema.
+    1. Aplicación: Utilizar el Sistema de Colección de Datos para monitorizar continuamente todos los contenedores y microservicios (React/NodeJS UI, MKS Connector, Sistema de Notificaciones). Configurar alertas para cualquier anomalía detectada en el rendimiento o disponibilidad de los servicios.
+3. Balanceo de Carga: Distribuir el tráfico entre múltiples instancias de servicios.
+    1. Aplicación: Utilizar el balanceador de carga de Kubernetes para distribuir las solicitudes entrantes entre las instancias de los microservicios, asegurando que ninguna instancia se sobrecargue y que el servicio se mantenga disponible incluso durante picos de demanda.
