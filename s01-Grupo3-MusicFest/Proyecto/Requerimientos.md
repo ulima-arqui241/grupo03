@@ -74,11 +74,8 @@ Se trabajara este modulo como un microservicio
     * Se debe aplicar automáticamente una comisión del 3% al precio de los tickets, que se destinará a la plataforma.
 6.	Gestión de Ventas:
     * Los managers deben tener acceso a un panel de control donde puedan ver las ventas de tickets para sus eventos.
-    * Deben poder ver detalles de las ventas, incluyendo el número de tickets vendidos, el monto total recaudado, y la identidad de los compradores (a través del DNI).
-7.	Gestión de Usuarios:
-    * Los managers deben poder acceder a la información de los usuarios que han comprado tickets para sus eventos.
-    * Deben poder verificar la identidad de los compradores mediante el DNI.
-8.	Notificaciones:
+    * Deben poder ver detalles de las ventas, incluyendo el número de tickets vendidos y el monto total recaudado.
+7.	Notificaciones:
     * El sistema debe enviar notificaciones a los managers sobre las ventas de tickets y cualquier otra información relevante sobre sus eventos.
 
 ### Requerimientos de atributo de calidad
