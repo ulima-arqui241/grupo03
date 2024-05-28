@@ -14,4 +14,4 @@ Bienvenidos al repositorio del Proyecto del Curso del Grupo 3. Aquí encontrará
 
 5. [Propuesta de arquitectura]()
 
-6. [Implementación del proyecto (estructura inicial)]()
+6. [Estructura inicial del proyecto](Proyecto/EstructuraInicial.md)
