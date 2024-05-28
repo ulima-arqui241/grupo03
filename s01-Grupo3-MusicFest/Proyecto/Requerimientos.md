@@ -2,6 +2,16 @@
 
 # Requerimientos
 
+## Diagramas de arquitectura
+
+### Diagrama de contexto del sistema
+
+![alt text](<Imagenes/Arquitectura-Diagrama de contexto.drawio.png>)
+
+### Diagrama de contenedores del sistema
+
+![alt text](<Imagenes/Arquitectura-Diagrama de contenedores.drawio.png>)
+
 ## Modulo 1: Compra de Tickets
 
 ### Requerimientos funcionales
@@ -52,6 +62,7 @@
 
 Se trabajara este modulo como un microservicio
 
+![alt text](<Imagenes/Arquitectura-Diagrama de componente - Compra de Tickets.drawio.png>)
 
 ## Modulo 2: Panel de Managers
 
@@ -94,6 +105,7 @@ Se trabajara este modulo como un microservicio
 
 Se trabajara este modulo como un microservicio
 
+![alt text](<Imagenes/Arquitectura-Diagrama de componente - Panel de managers.drawio.png>)
 
 ## Modulo 3: Notificaciones
 
@@ -124,6 +136,8 @@ Se trabajara este modulo como un microservicio
 ### Decision de arquitectura
 
 Se trabajara este modulo como un microservicio
+
+![alt text](<Imagenes/Arquitectura-Diagrama de componente - Notificaciones.drawio.png>)
 
 ## Restricciones
 
