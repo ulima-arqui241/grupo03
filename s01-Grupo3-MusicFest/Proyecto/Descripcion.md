@@ -6,28 +6,28 @@ Desarrollar una pagina web para la venta de tickets de conciertos. La pagina per
 
 # Estructura de Stakeholders
 
-* Analista: Nosotros
-* Arquitecto: Nosotros
-* Gestor de negocio: Nosotros
-* Conformance Checker: Event manager
-* Cliente: Event manager
-* DBA: Nosotros
-* Especialista en Despliegue: Nosotros
-* Diseñador: Nosotros
-* Evaluador: Auditor de software
-* Implementador: Nosotros
-* Integrador: Nosotros
-* Mantenedor: Nosotros
-* Jefe de proyecto: Alejandro
-* Ingeniero de pruebas: Nosotros
+* Analista: Gerente de proyecto
+* Arquitecto: Arquitecto Cloud AWS
+* Gestor de negocio: Gerente de porducto
+* Conformance Checker: Arquitecto Cloud AWS
+* Cliente: Direccion General
+* DBA: Administrador de base de datos
+* Especialista en Despliegue: Arquitecto AWS
+* Diseñador: Diseñador UX/UI y Especialista SEO/SEM
+* Evaluador: Gerente de proyecto
+* Implementador: Desarrolladores frontend y backend
+* Integrador: Arquitecto Cloud AWS
+* Mantenedor: Desarrolladores frontend y backend
+* Jefe de proyecto: Gerente de proyecto
+* Ingeniero de pruebas: Especialista en Seguridad y Desarrolladores Backend
 * Usuario: Event manager y personas que quieran comprar tickets para conciertos
 
 
 # Stack Tecnológico
 
 * Framework de Frontend: React
-* Framework de backend: Por decidir
-* Motor de BD: PostgreSQL
+* Framework de backend: NodeJs
+* Motor de BD: PostgreSQL, MongoDB
 
 # Como deberia funcionar
 * El cliente puede crear eventos para vender tickets, estos eventos pueden ser masivos o pequeños.
