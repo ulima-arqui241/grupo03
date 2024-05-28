@@ -2,7 +2,7 @@
 
 ## Concepto
 
-Se busca realizar un análisis comparativo entre los cuatro frameworks de JavaScript populares: React, Svelte, Angular y Vue. Cada uno de estos marcos ofrece características y capacidades únicas para la construcción de aplicaciones web modernas.
+Se busca realizar un análisis comparativo entre los tres frameworks de JavaScript populares: React, Angular y Vue. Cada uno de estos marcos ofrece características y capacidades únicas para la construcción de aplicaciones web modernas.
 
 ### React
 
@@ -51,7 +51,7 @@ Se propone desarrollar una aplicación sencilla en cada uno de los frameworks es
 
 ### Video de la demo
 
-[Link del video]()
+[Link del video](https://www.youtube.com/watch?v=-Dcgfau8Yj4)
 
 ### Consideraciones tecnicas de la demo
 
