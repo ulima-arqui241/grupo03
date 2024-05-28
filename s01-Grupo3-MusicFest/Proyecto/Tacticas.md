@@ -10,7 +10,8 @@ Implementar servidores adicionales que procesan las mismas entradas en paralelo.
     * Aplicación: Utilizar el Sistema de Colección de Datos para monitorizar continuamente todos los contenedores y microservicios (React/NodeJS UI, MKS Connector, Sistema de Notificaciones). Configurar alertas para cualquier anomalía detectada en el rendimiento o disponibilidad de los servicios.
 3. Balanceo de Carga: Distribuir el tráfico entre múltiples instancias de servicios.
     *  Aplicación: Utilizar el balanceador de carga de Kubernetes para distribuir las solicitudes entrantes entre las instancias de los microservicios, asegurando que ninguna instancia se sobrecargue y que el servicio se mantenga disponible incluso durante picos de demanda.
-    **Mantenibilidad**
+    
+**Mantenibilidad**
 1. Modularidad: Dividir el sistema en módulos pequeños y cohesivos.
     * Aplicación: Mantener cada funcionalidad principal (UI Web, MKS Connector, Sistema de Notificaciones, Compra de Ticket) en contenedores independientes gestionados por Kubernetes. Esto permitirá que las actualizaciones y el mantenimiento se puedan realizar de manera aislada sin afectar a todo el sistema.
 2. Refactoring: Refactorizar el código para reducir la duplicación y mejorar la organización.
