@@ -30,17 +30,24 @@ Desarrollar una pagina web para la venta de tickets de conciertos. La pagina per
 * Motor de BD: PostgreSQL, MongoDB
 
 # Como deberia funcionar
-* El cliente puede crear eventos para vender tickets, estos eventos pueden ser masivos o pequeños.
+* Los event managers pueden crear eventos para vender tickets, estos eventos pueden ser masivos o pequeños.
     * A partir de eventos medianos, el cliente debe de pagar un monto fijo por alojar la venta de tickets en la aplicacion.
     * Los clientes pueden modificar el precio de los tickets, aplicando un 3% de comision a nosotros.
 * Los usuarios pueden comprar uno o varios tickets, indicando por DNI la identidad de la persona.
+* El sistema de compra tiene que ser rapido y simple para el usuario
+* El sistema de creacion de eventos puede ser lento y debe de priorizar la seguridad de la identidad y recomendaciones para satisfacer las regulaciones del evento (Aforo, permisos, publico objetivo, etc)
 
 
 # Modelo de negocio
-* Segmento de clientes: Asistentes de eventos y organizadores de eventos
-* Canales: Pagina web
-* Ventaja injusta: En progreso
-* Propuesta de valor: Permitir la venta y compra de tickets rapidamente
+* Segmento de clientes: 
+    * Entusiastas de distintos géneros musicales
+    * Gerente de conciertos inexperimentados o experimentados
+* Canales: 
+    * Enlace de Google por busqueda
+    * Publicidad de google enfocados a publicar eventos o eventos con promociones
+* Propuesta de valor: 
+    * Permitir la compra rapida de ticket
+    * Crear eventos de música con recomendaciones para asegurar la realización del evento
 * Solucion: 
     * Simplicidad
     * Velocidad
@@ -49,12 +56,21 @@ Desarrollar una pagina web para la venta de tickets de conciertos. La pagina per
     * Carga en la aplicacion (DDOS)
     * Manejo de colas
     * Velocidad en la compra de tickets.
+* Actividades clave:
+    * Creacion de eventos
+    * Publicidad de eventos
+    * Venta de ticket para los eventos
+* Cooperaciones clave
+    * Amazon web services para alojar y monitorear el producto
+    * Alianzas con los gerentes de eventos en la publicidad de la pagina
 * Costos: 
-    * Servidores
-    * Mantenimiento
-    * Publicidad
-    * Comisiones
+    * Costos de la Nube (servicios AWS)
+    * Publicidad de la pagina (Google ads)
+    * Comisiones por uso de APIs
+    * Costo de equipos y licencias para los desarrolladores
 * Ingresos:
-    * Comisiones
-    * Publicidad
-    * Venta de tickets
+    * Comisiones en la creacion de eventos
+    * Publicidad de eventos patrocinados
+    * Porcentaje en la venta de los tickets
+
+![alt text](<Imagenes/Arquitectura BMC.png>)
