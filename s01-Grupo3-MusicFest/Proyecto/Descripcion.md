@@ -26,21 +26,6 @@ Desarrollar una pagina web para la venta de tickets de conciertos. La pagina per
 
 ![alt text](Imagenes/Organigrama.jpeg)
 
-# Stack Tecnológico
-
-## Pagina web UI
-
-* Framework de Frontend: React
-* Framework de backend: NodeJs
-* Motor de BD: PostgreSQL
-
-## Microservicios
-
-* Orquestador de microservicios: Kubernetes
-* Framework de backend: Dependiendo del microservicio
-* Motor de BD: MongoDB
-
-
 # Como deberia funcionar
 * Los event managers pueden crear eventos para vender tickets, estos eventos pueden ser masivos o pequeños.
     * A partir de eventos medianos, el cliente debe de pagar un monto fijo por alojar la venta de tickets en la aplicacion.
@@ -66,7 +51,7 @@ Desarrollar una pagina web para la venta de tickets de conciertos. La pagina per
     * Seguridad
 * Metricas claves: 
     * Carga en la aplicacion (DDOS)
-    * Manejo de colas
+    * Tiempo de espera en cola promedio.
     * Velocidad en la compra de tickets.
 * Actividades clave:
     * Creacion de eventos
