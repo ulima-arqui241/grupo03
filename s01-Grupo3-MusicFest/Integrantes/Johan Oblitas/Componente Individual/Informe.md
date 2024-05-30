@@ -76,4 +76,6 @@ Se propone desarrollar una aplicación sencilla en cada uno de los frameworks es
     * Ejecutar el comando 'npm install' para instalar las dependencias del proyecto
     * Ejecutar el comando 'npm run serve' para inicializar la demo
 
+[Regresar](../Oblitas.md)
+
 [Regresar al índice](../../../proyecto.md)

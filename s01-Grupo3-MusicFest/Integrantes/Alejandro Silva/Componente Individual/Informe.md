@@ -71,4 +71,6 @@ Un ejemplo de esto seria cuando un cliente compra un ticket siguiendo los pasos 
     * Para terminar los servicios utilizar `CTRL + CMD`
     * Para eliminar los servicios utilizar `docker compose down`
 
+[Regresar](../Alejandro%20Silva.md)
+
 [Regresar al índice](../../../proyecto.md)

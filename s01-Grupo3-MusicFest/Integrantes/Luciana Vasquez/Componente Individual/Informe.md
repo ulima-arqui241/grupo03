@@ -1,4 +1,3 @@
-
 # API Management
 
 ## ¿Qué es una API?
@@ -50,3 +49,7 @@ Para llevar a cabo esta demo, se necesitan los siguientes componentes y configur
 
 **Créditos:** 
     - Pipeline extraído de: https://github.com/jossHD/apic-pipeline
+
+[Regresar](../Luciana.md)
+
+[Regresar al índice](../../../proyecto.md)
