@@ -1,0 +1,56 @@
+[Regresar al Indice](../proyecto.md)
+
+# Arquitectura
+
+## Tipo de arquitectura a emplear
+
+Se empleara la arquitectura basada en evento para el proyecto por la alta cantidad de solicitudes de tickets y la necesidad que garantizar los servicios no sean comprometidos por el fallo de otros servicios.
+
+Los servicios seran por lo tanto desarrollados como microservicios que realizaran sus tareas independiente.
+
+## Diagramas de arquitectura
+
+### Diagrama de contexto del sistema
+
+![alt text](<Imagenes/Arquitectura-Diagrama de contexto.drawio.png>)
+
+Se tiene planteado que el sistema MusicFest reciba solicitudes de nuestros usuarios, reportando los logs de los microservicios al sistema de coleccion de data para el calculo de KPIs
+
+### Diagrama de contenedores del sistema
+
+![alt text](<Imagenes/Arquitectura-Diagrama de contenedores.drawio.png>)
+
+Los contenedores del sistema de MusicFest planteados son:
+    
+* Aplicacion Web UI: Responsable de renderizar las interfases de la experiencia de usuarios y generara los eventos a los microservicios correspondientes.
+* MSK Connector: Recurso de conexion Amazon para el Manejo de Streaming por Kafka. Permite el realizar facilmente el streaming de data para los desarrolladores, se utiliza el recurso de kafka para juntar la gran cantidad de eventos en un topico, permitiendo a los microservicios escalar y consumir los eventos sin ser sobrecargados.
+* Microservice Network: Se utliza la tecnologia de kubernetes para el manejo de los microservicios.
+* Sistema de notificaciones: Es parte de la red de microservicios, mas se resalta porque sera el microservicio encargado de enviar las notificaciones necesarias a los usuarios siendo un contenedor clave en la comunicacion sistema-usuario.
+* Sistema de coleccion de data: Servicio encargado de procesar los logs de los microservicios, con la funcion de proveer KPIs, metricas y graficas para el seguimiento del estado de la aplicacion. 
+
+### Diagrama de componente por modulo
+
+#### Modulo 1: Compra de Tickets
+
+![alt text](<Imagenes/Arquitectura-Diagrama de componente - Compra de Tickets.drawio.png>)
+
+La ruta del usuario clave de este modulo, el entusiasta, es en ingresar por la aplicacion web UI, la cual enviara los eventos por la api de kubernetes que enviara los eventos a los microservicos o al conector MSK segun la el tipo de API. El conector MSK sera utilizado para tareas de alto trafico como la compra de tickets o el envio de notificaciones. Los microservicios de registro y login de usuario, cancelacion de ticket y compra de ticket enviaran eventos al conector MSK para realizar notificaciones.
+
+La compra de tickets consumira los eventos de compra de la cola dentro del MSK y procesara los eventos. En caso de falla del microservicio, se almacenara el evento fallido en un registro y los eventos retrasados sera puestos en el registro de hold. Asi cuando el evento fallido sea procesado o descartado los eventos en hold seran procesados antes de consumir los eventos de la cola.
+El sistema de notificaciones sera explicado en el modulo 3 de notificaciones.
+
+#### Modulo 2: Panel de Managers
+
+![alt text](<Imagenes/Arquitectura-Diagrama de componente - Panel de managers.drawio.png>)
+
+La ruta del usuario clave, el gerente de eventos, sera el de ingresar a la aplicacion web y realizar registro o login de su cuenta, la cual le permitira acceder a la ventana de panel de managers. El panel de managers utilizara la sesion como parte del evento para validar que sea un gerente el que accedio a la funcion.
+
+Las funciones que el panel de managers realizara seran procesadas por los microservcios de manejo de eventos y reporte de eventos.
+
+Los microservicios enviaran las notificaciones a la cola de notificaciones en el MSK y las notificaciones seran enviadas por el sistema de notificaciones explicados en el modulo 3.
+
+#### Modulo 3: Notificaciones
+
+![alt text](<Imagenes/Arquitectura-Diagrama de componente - Notificaciones.drawio.png>)
+
+Los microservicios enviaran los eventos de notificaciones con el tipo de notificacion a enviar a la cola de notificaciones en el MSK. El microservicio de notificaciones consumira los eventos de la cola y enviara las notificaciones a los usuarios correspondientes.

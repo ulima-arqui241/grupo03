@@ -2,16 +2,6 @@
 
 # Requerimientos
 
-## Diagramas de arquitectura
-
-### Diagrama de contexto del sistema
-
-![alt text](<Imagenes/Arquitectura-Diagrama de contexto.drawio.png>)
-
-### Diagrama de contenedores del sistema
-
-![alt text](<Imagenes/Arquitectura-Diagrama de contenedores.drawio.png>)
-
 ## Modulo 1: Compra de Tickets
 
 ### Requerimientos funcionales
@@ -57,13 +47,6 @@
 | E2 | Multiples usuarios compran el mismo ticket al mismo tiempo | Usuarios que compran el mismo ticket | El sistema debe de trasladar a la persona a una lista de espera | Tiempo promedio de respuesta del sistema, no debe de exceder los 5 segundos | Momento de alta demanda durante la venta de tickets para eventos populares | Pagina de compra de tickets |
 | E3 | Solicitud de historial de compras | Usuarios que desean revisar sus compras anteriores | El sistema debe mostrar el historial de compras rápidamente y sin errores | Tiempo promedio de carga del historial de compras, no debe exceder los 3 segundos | Usuario accediendo al historial de compras en cualquier momento | Historial de compras |
 
-
-### Decision de arquitectura
-
-Se trabajara este modulo como un microservicio
-
-![alt text](<Imagenes/Arquitectura-Diagrama de componente - Compra de Tickets.drawio.png>)
-
 ## Modulo 2: Panel de Managers
 
 ### Requerimientos funcionales
@@ -101,12 +84,6 @@ Se trabajara este modulo como un microservicio
 | E.2. Actualización de detalles del evento | Solicitud de modificación de detalles del evento como fecha, hora, lugar o descripción. | Managers autenticados que desean actualizar la información de sus eventos. | El sistema debe permitir la actualización de los detalles del evento de manera rápida y segura. | Tiempo promedio para actualizar los detalles del evento, no debe exceder los 10 segundos. | Cambios en las circunstancias del evento o la necesidad de corregir errores de información. | Gestión de Eventos |
 | E.3. Implementación de nuevas reglas de negocio | Solicitud de incorporación de nuevas reglas de negocio como descuentos especiales o promociones temporales. | Administradores del sistema o directores comerciales. | El sistema debe permitir la incorporación de nuevas reglas de negocio sin afectar la funcionalidad existente. | Tiempo promedio para implementar nuevas reglas de negocio, no debe exceder los 30 segundos. | Adaptación a nuevas estrategias de marketing o cambios en la normativa comercial. | Configuración de Precios |
 
-### Decision de arquitectura
-
-Se trabajara este modulo como un microservicio
-
-![alt text](<Imagenes/Arquitectura-Diagrama de componente - Panel de managers.drawio.png>)
-
 ## Modulo 3: Notificaciones
 
 ### Requerimientos funcionales
@@ -132,12 +109,6 @@ Se trabajara este modulo como un microservicio
 | E.1 | Fallo en el envío de notificaciones de compra | Error del sistema o fallo en la conectividad del servidor de correo | El sistema debe detectar y reintentar el envío de notificaciones de compra | Porcentaje de notificaciones reintentadas con éxito, debe ser superior al 99% | Momento de alta demanda o fallo eventual del sistema de notificaciones | Sistema de notificaciones de compra |
 | E.2 | Notificaciones de eventos pospuestos o cancelados | Cambio en el estado del evento, como posposición o cancelación | El sistema debe enviar notificaciones a todos los usuarios afectados sin duplicación ni omisiones | Porcentaje de usuarios notificados correctamente, debe ser superior al 99% | Cambios de último minuto en el estado del evento | Sistema de notificaciones de eventos |
 | E.3 | Sobrecarga del sistema durante eventos masivos | Alta concurrencia de usuarios comprando tickets y recibiendo notificaciones simultáneamente | El sistema debe mantener la tasa de entrega de notificaciones sin fallos | Tasa de entrega de notificaciones durante picos de demanda, debe mantenerse al 95% o superior | Momento de venta de tickets para eventos muy populares | Sistema de notificaciones de compra |
-
-### Decision de arquitectura
-
-Se trabajara este modulo como un microservicio
-
-![alt text](<Imagenes/Arquitectura-Diagrama de componente - Notificaciones.drawio.png>)
 
 ## Restricciones
 
