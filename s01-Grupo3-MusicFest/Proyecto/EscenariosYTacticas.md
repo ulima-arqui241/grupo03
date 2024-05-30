@@ -1,6 +1,6 @@
 [Regresar al Indice](../proyecto.md)
 
-# Tácticas
+# Escenarios y tácticas
 
 **Disponibilidad**
 1. Redundancia Activa (Hot Spare):
