@@ -2,6 +2,50 @@
 
 # Escenarios y tácticas
 
+# Requerimientos de Atributos de Calidad
+
+## Rendimiento
+
+| Escenario | Estímulo | Fuente del estímulo | Respuesta | Medida de respuesta | Entorno | Artefacto | Táctica Asociada |
+|-----------|----------|---------------------|-----------|----------------------|---------|-----------|------------------|
+| E1 | Múltiples usuarios acceden al home page al mismo tiempo | Usuarios que acceden a la página | La página debe cargar rápidamente y mostrar los eventos disponibles | Tiempo promedio de respuesta inicial de la página, no debe exceder 1 segundo y el tiempo de carga final no debe exceder 2 segundos | Momento de alta demanda durante la venta de tickets para eventos populares | Página de compra de tickets | Balanceo de Carga |
+| E2 | Múltiples usuarios compran el mismo ticket al mismo tiempo | Usuarios que compran el mismo ticket | El sistema debe trasladar a la persona a una lista de espera | Tiempo promedio de respuesta del sistema, no debe exceder 5 segundos | Momento de alta demanda durante la venta de tickets para eventos populares | Página de compra de tickets | Controlar Frecuencia de Llegada |
+| E3 | Solicitud de historial de compras | Usuarios que desean revisar sus compras anteriores | El sistema debe mostrar el historial de compras rápidamente y sin errores | Tiempo promedio de carga del historial de compras, no debe exceder 3 segundos | Usuario accediendo al historial de compras en cualquier momento | Historial de compras | Incrementar Eficiencia en el Uso de Recursos |
+| E4 | Búsqueda de eventos por nombre o marca | Usuarios buscando eventos específicos | El sistema debe mostrar los resultados de la búsqueda rápidamente | Tiempo promedio de respuesta de la búsqueda, no debe exceder 2 segundos | Usuario buscando eventos en cualquier momento | Catálogo de eventos | Controlar la Demanda de Recursos |
+
+## Disponibilidad
+
+| Escenario | Estímulo | Fuente del estímulo | Respuesta | Medida de respuesta | Entorno | Artefacto | Táctica Asociada |
+|-----------|----------|---------------------|-----------|----------------------|---------|-----------|------------------|
+| A1 | Fallo en una instancia del servicio de compra de tickets | Falla del servidor o del contenedor | Otra instancia debe asumir la carga sin interrupciones | Tiempo de inactividad cero, failover automático | Durante la operación normal | Microservicio de Compra de Ticket | Redundancia Activa |
+| A2 | Sobre carga de solicitudes en el sistema | Usuarios realizando múltiples compras de tickets simultáneamente | El sistema debe balancear la carga y mantener la disponibilidad | Mantener la disponibilidad del sistema al 99.99% | Momento de alta demanda | Todos los microservicios | Monitorización |
+| A3 | Fallo en el sistema de notificaciones | Falla del servidor o del contenedor | Otra instancia debe asumir la carga sin interrupciones | Tiempo de inactividad cero, failover automático | Durante la operación normal | Sistema de Notificaciones | Redundancia Activa |
+
+## Mantenibilidad
+
+| Escenario | Estímulo | Fuente del estímulo | Respuesta | Medida de respuesta | Entorno | Artefacto | Táctica Asociada |
+|-----------|----------|---------------------|-----------|----------------------|---------|-----------|------------------|
+| M1 | Necesidad de actualizar la lógica de negocio | Cambio en los requisitos de la aplicación | Actualizar los microservicios de forma aislada sin afectar otros servicios | Tiempo promedio para desplegar la actualización, no debe exceder 15 minutos | Durante la ventana de mantenimiento | Todos los microservicios | Modularidad |
+| M2 | Necesidad de refactorizar código | Mejora continua del código base | Refactorizar y desplegar sin interrumpir el servicio | Tiempo promedio para realizar la refactorización y despliegue, no debe exceder 30 minutos | Durante la ventana de mantenimiento | Microservicio de Compra de Ticket, Registro de Usuario | Refactoring |
+
+## Interoperabilidad
+
+| Escenario | Estímulo | Fuente del estímulo | Respuesta | Medida de respuesta | Entorno | Artefacto | Táctica Asociada |
+|-----------|----------|---------------------|-----------|----------------------|---------|-----------|------------------|
+| I1 | Integración con un sistema de pago externo | Solicitud de transacción desde la API de Transacciones | Realizar la transacción de manera segura y eficiente | Tiempo promedio para completar la transacción, no debe exceder 5 segundos | Durante la operación normal | API de Transacciones | API RESTful |
+| I2 | Integración con un sistema de notificaciones | Envío de notificaciones por eventos importantes | Enviar notificaciones en tiempo real | Tiempo promedio para enviar una notificación, no debe exceder 2 segundos | Durante la operación normal | Sistema de Notificaciones | Orquestación |
+
+## Seguridad
+
+| Escenario | Estímulo | Fuente del estímulo | Respuesta | Medida de respuesta | Entorno | Artefacto | Táctica Asociada |
+|-----------|----------|---------------------|-----------|----------------------|---------|-----------|------------------|
+| S1 | Intento de acceso no autorizado | Usuario o sistema desconocido intentando acceder al sistema | Bloquear el intento de acceso y registrar el incidente | Número de intentos de acceso no autorizado detectados y bloqueados | Persistente amenaza de ataques externos | API de Transacciones, Sistema de Autenticación | Autenticación de Actores |
+| S2 | Transmisión de datos sensibles | Transferencia de datos de pago o información personal | Encriptar los datos durante la transmisión | Datos encriptados con SSL/TLS, sin datos comprometidos | Durante la operación normal | Aplicación Web UI, API de Transacciones | Encriptación de Datos |
+| S3 | Modificación no autorizada de datos | Intento de modificar datos de eventos o usuarios sin permisos | Prevenir la modificación y alertar al administrador | Número de intentos de modificación no autorizados detectados y prevenidos | Persistente amenaza interna o externa | Microservicios de Gestión de Eventos, Registro de Usuario | Autorización de Actores |
+
+
+## Descripción de Tácticas
+
 **Disponibilidad**
 1. Redundancia Activa (Hot Spare):
 Implementar servidores adicionales que procesan las mismas entradas en paralelo.
