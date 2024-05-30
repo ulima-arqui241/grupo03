@@ -6,8 +6,6 @@ Desarrollar una pagina web para la venta de tickets de conciertos. La pagina per
 
 # Estructura de Stakeholders
 
-![alt text](Imagenes/Organigrama.jpeg)
-
 * Analista: Gerente de proyecto
 * Arquitecto: Arquitecto Cloud AWS
 * Gestor de negocio: Gerente de porducto
@@ -24,6 +22,9 @@ Desarrollar una pagina web para la venta de tickets de conciertos. La pagina per
 * Ingeniero de pruebas: Especialista en Seguridad y Desarrolladores Backend
 * Usuario: Event manager y personas que quieran comprar tickets para conciertos
 
+# Organigrama
+
+![alt text](Imagenes/Organigrama.jpeg)
 
 # Stack Tecnológico
 
