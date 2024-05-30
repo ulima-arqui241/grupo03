@@ -37,16 +37,6 @@
     * El usuario debe de poder ver el tiempo estimado de espera
     * El usuario debe de poder cancelar la espera antes de que se le asigne un ticket
 
-### Requerimientos de atributo de calidad
-
-#### Rendimiento
-
-| Escenario | Estímulo | Fuente del estímulo | Respuesta | Medida de respuesta | Entorno | Artefacto | 
-| ------------- |:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
-| E1 | Multiples usuarios acceden al home page al mismo tiempo | Usuarios que acceden a la pagina | La pagina debe de cargar rapidamente y mostrar los eventos disponibles | Tiempo promedio de respuesta inicial de la pagina, no debe de exceder el segundo y el tiempo de carga final, no debe de exceder los 2 segundos | Momento de alta demanda durante la venta de tickets para eventos populares | Pagina de compra de tickets |
-| E2 | Multiples usuarios compran el mismo ticket al mismo tiempo | Usuarios que compran el mismo ticket | El sistema debe de trasladar a la persona a una lista de espera | Tiempo promedio de respuesta del sistema, no debe de exceder los 5 segundos | Momento de alta demanda durante la venta de tickets para eventos populares | Pagina de compra de tickets |
-| E3 | Solicitud de historial de compras | Usuarios que desean revisar sus compras anteriores | El sistema debe mostrar el historial de compras rápidamente y sin errores | Tiempo promedio de carga del historial de compras, no debe exceder los 3 segundos | Usuario accediendo al historial de compras en cualquier momento | Historial de compras |
-
 ## Modulo 2: Panel de Managers
 
 ### Requerimientos funcionales
@@ -74,16 +64,6 @@
 7.	Notificaciones:
     * El sistema debe enviar notificaciones a los managers sobre las ventas de tickets y cualquier otra información relevante sobre sus eventos.
 
-### Requerimientos de atributo de calidad
-
-#### Modificabilidad
-
-| Escenario | Estímulo | Fuente del estímulo | Respuesta | Medida de respuesta | Entorno | Artefacto | 
-| ------------- |:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
-| E.1. Cambio de estructura de precio de los tickets | Solicitud de cambio en la estructura de precios de los tickets por parte de los managers. | Managers autenticados que desean actualizar los precios de los tickets de un evento. | El sistema debe permitir cambios en la estructura de precios de manera oportuna y precisa. | Tiempo promedio para implementar cambios en los precios de los tickets, no debe exceder los 15 segundos. | Necesidad de adaptación rápida a cambios en las estrategias de precios del cliente o demandas del mercado. | Panel de Managers |
-| E.2. Actualización de detalles del evento | Solicitud de modificación de detalles del evento como fecha, hora, lugar o descripción. | Managers autenticados que desean actualizar la información de sus eventos. | El sistema debe permitir la actualización de los detalles del evento de manera rápida y segura. | Tiempo promedio para actualizar los detalles del evento, no debe exceder los 10 segundos. | Cambios en las circunstancias del evento o la necesidad de corregir errores de información. | Gestión de Eventos |
-| E.3. Implementación de nuevas reglas de negocio | Solicitud de incorporación de nuevas reglas de negocio como descuentos especiales o promociones temporales. | Administradores del sistema o directores comerciales. | El sistema debe permitir la incorporación de nuevas reglas de negocio sin afectar la funcionalidad existente. | Tiempo promedio para implementar nuevas reglas de negocio, no debe exceder los 30 segundos. | Adaptación a nuevas estrategias de marketing o cambios en la normativa comercial. | Configuración de Precios |
-
 ## Modulo 3: Notificaciones
 
 ### Requerimientos funcionales
@@ -100,15 +80,6 @@
     * El usuario debe de ser notificado por correo para confirmar la compra
     * El usuario debe de ser notificado por correo para confirmar la cancelacion de la compra
 
-### Requerimientos de atributo de calidad
-
-#### Confiabilidad
-
-| Escenario | Estímulo | Fuente del estímulo | Respuesta | Medida de respuesta | Entorno | Artefacto | 
-| ------------- |:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
-| E.1 | Fallo en el envío de notificaciones de compra | Error del sistema o fallo en la conectividad del servidor de correo | El sistema debe detectar y reintentar el envío de notificaciones de compra | Porcentaje de notificaciones reintentadas con éxito, debe ser superior al 99% | Momento de alta demanda o fallo eventual del sistema de notificaciones | Sistema de notificaciones de compra |
-| E.2 | Notificaciones de eventos pospuestos o cancelados | Cambio en el estado del evento, como posposición o cancelación | El sistema debe enviar notificaciones a todos los usuarios afectados sin duplicación ni omisiones | Porcentaje de usuarios notificados correctamente, debe ser superior al 99% | Cambios de último minuto en el estado del evento | Sistema de notificaciones de eventos |
-| E.3 | Sobrecarga del sistema durante eventos masivos | Alta concurrencia de usuarios comprando tickets y recibiendo notificaciones simultáneamente | El sistema debe mantener la tasa de entrega de notificaciones sin fallos | Tasa de entrega de notificaciones durante picos de demanda, debe mantenerse al 95% o superior | Momento de venta de tickets para eventos muy populares | Sistema de notificaciones de compra |
 
 ## Restricciones
 
