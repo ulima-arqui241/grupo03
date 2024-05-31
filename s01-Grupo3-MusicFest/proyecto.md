@@ -12,8 +12,10 @@ Bienvenidos al repositorio del Proyecto del Curso del Grupo 3. Aquí encontrará
 
 4. [Decisiones de tecnologia del proyecto](Proyecto/TecnologiaDetalles.md)
 
-5. [Arquitectura del proyecto](Proyecto/Arquitectura.md)
+5. [Asignacion de responsabilidades](Proyecto/Responsabilidades.md)
 
-6. [Tácticas del proyecto](Proyecto/Tacticas.md)
+6. [Arquitectura del proyecto](Proyecto/Arquitectura.md)
 
-7. [Estructura inicial del proyecto](Proyecto/EstructuraInicial.md)
+7. [Tácticas y escenarios del proyecto](Proyecto/EscenariosYTacticas.md)
+
+8. [Estructura inicial del proyecto](Proyecto/EstructuraInicial.md)
