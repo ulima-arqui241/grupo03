@@ -6,21 +6,32 @@ Desarrollar una pagina web para la venta de tickets de conciertos. La pagina per
 
 # Estructura de Stakeholders
 
-* Analista: Gerente de proyecto
-* Arquitecto: Arquitecto Cloud AWS
-* Gestor de negocio: Gerente de porducto
-* Conformance Checker: Arquitecto Cloud AWS
-* Cliente: Direccion General
-* DBA: Administrador de base de datos
-* Especialista en Despliegue: Arquitecto AWS
-* Diseñador: Diseñador UX/UI y Especialista SEO/SEM
-* Evaluador: Gerente de proyecto
-* Implementador: Desarrolladores frontend y backend
-* Integrador: Arquitecto Cloud AWS
-* Mantenedor: Desarrolladores frontend y backend
-* Jefe de proyecto: Gerente de proyecto
-* Ingeniero de pruebas: Especialista en Seguridad y Desarrolladores Backend
-* Usuario: Event manager y personas que quieran comprar tickets para conciertos
+* Gerente de Proyecto (Analista y Evaluador):
+    * El gerente de proyecto es esencial para la gestión y coordinación general del proyecto. Este rol se encarga de la planificación, monitoreo y evaluación del progreso del proyecto, asegurando que los requerimientos se cumplan en tiempo y forma. Además, supervisa la implementación de los módulos, garantizando la alineación con los objetivos de negocio y técnicos.
+
+* Arquitecto Cloud AWS (Arquitecto, Conformance Checker, Especialista en Despliegue, Integrador):
+    * Este rol es fundamental debido a la decisión de utilizar Amazon Web Services (AWS) para alojar y monitorear el producto. El arquitecto Cloud AWS se encargará de diseñar la infraestructura en la nube, asegurando alta disponibilidad y escalabilidad del sistema mediante el uso de Kubernetes para la orquestación de microservicios. También verifica que la arquitectura cumpla con las normas y regulaciones aplicables (Conformance Checker), despliega las soluciones (Especialista en Despliegue) y facilita la integración de diferentes componentes del sistema (Integrador).
+
+* Gerente de Producto (Gestor de Negocio):
+    * El gerente de producto representa la visión del negocio y define la propuesta de valor de la plataforma, enfocándose en la simplicidad, velocidad y seguridad de las transacciones. Este rol asegura que el producto final se alinee con las necesidades del mercado y satisfaga a los usuarios finales, tanto a los event managers como a los compradores de tickets.
+
+* Administrador de Base de Datos (DBA):
+    * Dada la elección de MongoDB como motor de base de datos NoSQL para manejar grandes volúmenes de datos de manera flexible, el DBA es crucial para la configuración, administración y optimización de la base de datos, asegurando un rendimiento óptimo y la integridad de los datos.
+
+* Diseñador UX/UI y Especialista SEO/SEM (Diseñador):
+    * Este rol es vital para garantizar una experiencia de usuario atractiva y eficiente, alineada con los requerimientos de simplicidad y velocidad en la compra de tickets. El diseñador también se encarga de optimizar la página para motores de búsqueda y campañas publicitarias, contribuyendo a los canales de adquisición de usuarios.
+
+* Desarrolladores Frontend y Backend (Implementador, Mantenedor):
+    * Los desarrolladores son responsables de la implementación de los microservicios y la interfaz de usuario utilizando las tecnologías seleccionadas (React para el frontend y frameworks como Express.js o Molecular para el backend). También se encargan del mantenimiento continuo del sistema, realizando actualizaciones y mejoras necesarias.
+
+* Especialista en Seguridad y Desarrolladores Backend (Ingeniero de Pruebas):
+    * Este rol es crítico para garantizar la seguridad del sistema, implementando tácticas como autenticación de actores, encriptación de datos y prevención de accesos no autorizados. Los ingenieros de pruebas realizan pruebas exhaustivas para identificar y mitigar vulnerabilidades.
+
+* Dirección General (Cliente):
+    * Representa a los interesados finales del proyecto, asegurando que la solución desarrollada cumple con las expectativas estratégicas y operativas de la organización.
+
+* Event Manager y Compradores de Tickets (Usuario):
+    * Los event managers son responsables de crear y gestionar eventos en la plataforma, mientras que los usuarios finales compran los tickets. Este grupo proporciona retroalimentación crucial para mejorar la usabilidad y funcionalidad del sistema.
 
 # Organigrama
 
