@@ -79,3 +79,6 @@
     * El usuario debe de ser notificado por correo en caso de que los tickets se agoten
     * El usuario debe de ser notificado por correo para confirmar la compra
     * El usuario debe de ser notificado por correo para confirmar la cancelacion de la compra
+
+
+Además de estar relacionados a los requerimientos, los escenarios se encuentran asociados a las tácticas del proyecto. Estos se organizaron en la siguiente página: [Tácticas y escenarios del proyecto](EscenariosYTacticas.md)
