@@ -79,13 +79,3 @@
     * El usuario debe de ser notificado por correo en caso de que los tickets se agoten
     * El usuario debe de ser notificado por correo para confirmar la compra
     * El usuario debe de ser notificado por correo para confirmar la cancelacion de la compra
-
-
-## Restricciones
-
-1. Backend:
-    * Restricción: Utilización de ExpressJS como framework de backend.
-    * Justificación: Preferencia técnica para el desarrollo del backend de la aplicación.
-2. Motor de Base de Datos:
-    * Restricción: Utilización de PostgreSQL como motor de base de datos.
-    * Justificación: Decisión previa de la organización para el almacenamiento de datos en la aplicación.
