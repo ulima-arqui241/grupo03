@@ -1,5 +1,3 @@
-[Regresar al Indice](../proyecto.md)
-
 # Requerimientos
 
 ## Modulo 1: Compra de Tickets

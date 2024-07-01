@@ -1,5 +1,3 @@
-[Regresar al Indice](../proyecto.md)
-
 # Escenarios y tácticas
 
 # Requerimientos de Atributos de Calidad

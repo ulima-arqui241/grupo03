@@ -1,5 +1,3 @@
-[Regresar al Indice](../proyecto.md)
-
 # Decisiones de tecnologias.
 
 ## Frontend Framework
