@@ -19,7 +19,7 @@
 - UC-13, UC-14, UC-15
 
 ## Escenarios de Calidad
-- Todos los escenarios de atributos de calidad (del escenario QA-1 al QA-15) fueron seleccionados por su relevancia definida para los stakeholders
+- Todos los escenarios de atributos de calidad (del escenario EAC-1 al EAC-12) fueron seleccionados por su relevancia definida para los stakeholders
 
 ## Restricciones y Preocupaciones de Arquitectura
 - Seleccionamos todas las mencionadas:
