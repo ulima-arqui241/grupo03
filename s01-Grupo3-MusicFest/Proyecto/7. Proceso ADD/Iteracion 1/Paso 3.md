@@ -1,4 +1,4 @@
-### Elementos a Refinar
+# Elementos a Refinar
 
 Ya que se busca establecer la funcionalidad básica del sistema, los elementos a refinar se centran en proporcionar una estructura sólida y funcionalidades esenciales.
 
