@@ -20,5 +20,10 @@
 - ACQ-07
 - ACQ-08
 
-**Restricciones y Preocupaciones:**
+**Preocupaciones:**
+- ARQ-01
+- ARQ-03
+- ARQ-04
+
+**Restricciones:**
 - CON-4
