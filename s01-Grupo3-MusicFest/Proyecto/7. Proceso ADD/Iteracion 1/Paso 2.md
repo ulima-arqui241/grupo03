@@ -18,7 +18,12 @@
 - ACQ-10
 - ACQ-11
 
-**Restricciones y Preocupaciones:**
+**Preocupaciones:**
+- ARQ-01
+- ARQ-02
+- ARQ-03
+
+**Restricciones:**
 - CON-1
 - CON-2
 - CON-3
