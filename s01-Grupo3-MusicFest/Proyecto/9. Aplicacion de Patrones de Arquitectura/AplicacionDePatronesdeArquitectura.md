@@ -1,6 +1,6 @@
 # Implementación de Patrones en el Proyecto
 Se implementarion 2 patrones en el proyecto del grupo 3: 
-#### Patrón Cliente-Servidor
+### Patrón Cliente-Servidor
 
 El patrón cliente-servidor es un modelo de arquitectura en el cual el sistema se divide en dos partes principales: el cliente y el servidor. En nuestro proyecto, implementamos este patrón de la siguiente manera:
 
@@ -19,7 +19,7 @@ El patrón cliente-servidor es un modelo de arquitectura en el cual el sistema s
 - Al separar el cliente y el servidor, podemos escalar cada parte de manera independiente. Por ejemplo, podemos agregar más servidores web para manejar un mayor número de solicitudes de clientes.
 
 
-#### Patrón de Arquitectura en Capas
+## Patrón de Arquitectura en Capas
 
 El patrón de arquitectura en capas divide el sistema en capas distintas, cada una con responsabilidades específicas. En nuestro proyecto, implementamos este patrón de la siguiente manera:
 
