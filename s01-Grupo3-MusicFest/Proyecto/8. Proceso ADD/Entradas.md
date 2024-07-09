@@ -11,12 +11,12 @@
 - CU-01, CU-02
 ### Compra de Tickets
 - CU-03, CU-04, CU-05, CU-06
-### Gestión de Pedidos
-- CU-07, CU-08
+### Gestión de Tickets
+- CU-07
 ### Panel de Managers
-- CU-09, CU-10, CU-11, CU-12
+- CU-08, CU-09
 ### Notificaciones
-- CU-13, CU-14, CU-15
+- CU-10
 
 ## Escenarios de Calidad
 - Todos los escenarios de atributos de calidad (del escenario EAC-1 al EAC-12) fueron seleccionados por su relevancia definida para los stakeholders
