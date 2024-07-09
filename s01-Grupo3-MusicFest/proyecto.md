@@ -44,10 +44,10 @@ Bienvenidos al repositorio del Proyecto del Curso del Grupo 3. Aquí encontrará
     - [7.5 Refinamiento](/s01-Grupo3-MusicFest/Proyecto/7.%20Workshop%20de%20Atributos%20de%20Calidad/7.5%20Refinamiento.md)
 8. Proceso de Diseño
     - 8.1 Drivers de Arquitectura
-        - [Funcionalidad Primaria (Casos de Uso)](/s01-Grupo3-MusicFest/Proyecto/8.%20Proceso%20de%20Diseño/8.1%20Drivers%20de%20Arquitectura/CasosDeUso.md)
-        - [Escenarios de Atributos de Calidad](/s01-Grupo3-MusicFest/Proyecto/8.%20Proceso%20de%20Diseño/8.1%20Drivers%20de%20Arquitectura/EscenariosAC.md)
-        - [Restricciones](/s01-Grupo3-MusicFest/Proyecto/8.%20Proceso%20de%20Diseño/8.1%20Drivers%20de%20Arquitectura/Restricciones.md)
-        - [Preocupaciones a Nivel de Arquitectura](/s01-Grupo3-MusicFest/Proyecto/8.%20Proceso%20de%20Diseño/8.1%20Drivers%20de%20Arquitectura/PreocupacionesArqui.md)
+        - [Funcionalidad Primaria (Casos de Uso)](/s01-Grupo3-MusicFest/Proyecto/8.%20Proceso%20ADD/Drivers/Casos%20de%20uso.md)
+        - [Escenarios de Atributos de Calidad](/s01-Grupo3-MusicFest/Proyecto/8.%20Proceso%20ADD/Drivers/Escenarios%20de%20ac.md)
+        - [Restricciones](/s01-Grupo3-MusicFest/Proyecto/8.%20Proceso%20ADD/Drivers/Restricciones.md)
+        - [Preocupaciones a Nivel de Arquitectura](/s01-Grupo3-MusicFest/Proyecto/8.%20Proceso%20ADD/Drivers/PreocupacionesArqui.md)
     - 8.2 Pasos de ADD (Attribute Driven Design)
         1. [Revisión de Entradas](/s01-Grupo3-MusicFest/Proyecto/8.%20Proceso%20ADD/Entradas.md)
         2. Primera Iteración: Fundamentos y Especificación Inicial
