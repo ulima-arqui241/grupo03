@@ -40,6 +40,6 @@ Bienvenidos al repositorio del Proyecto del Curso del Grupo 3. Aquí encontrará
     - [Arquitectura Orientada a Eventos](/s01-Grupo3-MusicFest/Integrantes/Alejandro%20Silva/Componente%20Individual/Informe.md)
     - [Comparación de Frameworks Front End](/s01-Grupo3-MusicFest/Integrantes/Johan%20Oblitas/Componente%20Individual/Informe.md)
     - [API Management](/s01-Grupo3-MusicFest/Integrantes/Luciana%20Vasquez/Componente%20Individual/Informe.md)
-    - [Gateway Aggregation](/s01-Grupo3-MusicFest/Integrantes/Alejandro%20Silva/)
+    - [Patrón Cloud: Gateway Aggregation](/s01-Grupo3-MusicFest/Integrantes/Alejandro%20Silva/)
     - [Patrón Cloud: Federated Identity](/s01-Grupo3-MusicFest/Integrantes/Johan%20Oblitas/Componente%20Individual%202/Informe.md)
     - [Patrón Cloud: Publisher/Subscriber](/s01-Grupo3-MusicFest/Integrantes/Luciana%20Vasquez/Componente%20Individual/PatronCloud.md)
