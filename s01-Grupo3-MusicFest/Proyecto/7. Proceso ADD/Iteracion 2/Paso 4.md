@@ -2,7 +2,7 @@
 
 | Código | Decisión de Diseño                       | Fundamentación                                                                                                                                              |
 |--------|------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| DEC-1  | Uso de arquitectura de Capas             | Permite una separación clara de responsabilidades y facilita el mantenimiento y la escalabilidad (ARQ-04).                                                  |
-| DEC-2  | Uso de un Servidor Web dedicado          | Proporciona un entorno controlado para el despliegue y la ejecución de la aplicación, asegurando la estabilidad y el rendimiento (ARQ-03, ARQ-01).          |
+| DEC-3  | Uso de una Base de Datos Relacional (SQL)            | Permite manejar transacciones y relaciones complejas, asegurando la integridad de los datos y optimizando la gestión de pedidos y el historial de compras (ARQ-03, ARQ-05).                                                 |
+
 
 ## Diagrama de Capas 
