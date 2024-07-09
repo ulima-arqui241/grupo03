@@ -1,0 +1,7 @@
+### Iteración 2: Ampliación y Escalabilidad
+
+| Código | Decisión de Diseño               | Fundamentación                                                                                                                             |
+|--------|----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
+| DEC-5  | Instanciar Módulo de Búsqueda y Filtrado | Facilitar la búsqueda y filtrado de eventos según varios criterios (categoría, ubicación, nombre). Permite manejar transacciones y relaciones complejas, asegurando la integridad de los datos y optimizando la gestión de pedidos y el historial de compras (ARQ-03, ARQ-05). |
+| DEC-6  | Instanciar Gestión de Pedidos    | Gestionar el proceso de pedidos, incluyendo la creación, actualización y cancelación de pedidos. Permite manejar transacciones y relaciones complejas, asegurando la integridad de los datos y optimizando la gestión de pedidos y el historial de compras (ARQ-03, ARQ-05). |
+| DEC-7  | Instanciar Sistema de Notificaciones | Enviar notificaciones al usuario sobre la confirmación de compras, cambios en eventos y recordatorios. Permite manejar transacciones y relaciones complejas, asegurando la integridad de los datos y optimizando la gestión de pedidos y el historial de compras (ARQ-03, ARQ-05). |
