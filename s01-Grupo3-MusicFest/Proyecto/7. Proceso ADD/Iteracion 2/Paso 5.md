@@ -1,4 +1,4 @@
-### Iteración 2: Ampliación y Escalabilidad
+# Elementos de arquitecturas y asignacion de responsabilidades
 
 | Código | Decisión de Diseño               | Fundamentación                                                                                                                             |
 |--------|----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|

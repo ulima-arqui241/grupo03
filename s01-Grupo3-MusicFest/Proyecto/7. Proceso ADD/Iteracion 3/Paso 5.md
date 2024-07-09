@@ -1,4 +1,4 @@
-### Iteración 3: Gestión y Optimización
+# Elementos de arquitecturas y asignacion de responsabilidades
 
 | Código | Decisión de Diseño                 | Fundamentación                                                                                                                             |
 |--------|------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|

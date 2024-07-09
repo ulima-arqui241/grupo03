@@ -1,4 +1,4 @@
-### Iteración 1: Fundamentos y Especificación Inicial
+# Elementos de arquitecturas y asignacion de responsabilidades
 
 | Código | Decisión de Diseño          | Fundamentación                                                                                                                             |
 |--------|-----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
