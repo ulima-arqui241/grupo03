@@ -13,10 +13,10 @@
 - UC-06
 
 **Escenarios de Atributos de Calidad:**
-- ACQ-01
-- ACQ-02
-- ACQ-10
-- ACQ-11
+- QA-01
+- QA-02
+- QA-10
+- QA-11
 
 **Preocupaciones:**
 - ARQ-01

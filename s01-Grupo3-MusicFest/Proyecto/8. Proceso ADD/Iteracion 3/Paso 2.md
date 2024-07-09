@@ -14,12 +14,12 @@
 - UC-04
 
 **Escenarios de Atributos de Calidad:**
-- ACQ-01
-- ACQ-03
-- ACQ-04
-- ACQ-05
-- ACQ-09
-- ACQ-12
+- QA-01
+- QA-03
+- QA-04
+- QA-05
+- QA-09
+- QA-12
 
 **Preocupaciones:**
 - ARQ-04

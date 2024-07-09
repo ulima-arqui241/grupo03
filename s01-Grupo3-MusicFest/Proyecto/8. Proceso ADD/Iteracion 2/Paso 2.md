@@ -15,10 +15,10 @@
 - UC-15
 
 **Escenarios de Atributos de Calidad:**
-- ACQ-04
-- ACQ-05
-- ACQ-07
-- ACQ-08
+- QA-04
+- QA-05
+- QA-07
+- QA-08
 
 **Preocupaciones:**
 - ARQ-01
