@@ -7,4 +7,4 @@
 
 ## Diagrama de Capas 
 
-![arqui](s01-Grupo3-MusicFest/Proyecto/Imagenes/arqui.png)
+![arqui](Proyecto/Imagenes/arqui.png)
