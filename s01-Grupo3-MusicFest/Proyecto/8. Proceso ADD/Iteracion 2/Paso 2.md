@@ -10,9 +10,6 @@
 - CU-02
 - CU-07
 - CU-08
-- CU-13
-- CU-14
-- CU-15
 
 **Escenarios de Atributos de Calidad:**
 - QA-04

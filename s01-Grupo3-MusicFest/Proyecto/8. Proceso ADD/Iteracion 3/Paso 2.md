@@ -9,8 +9,6 @@
 **Casos de Uso:**
 - CU-09
 - CU-10
-- CU-11
-- CU-12
 - CU-04
 
 **Escenarios de Atributos de Calidad:**
