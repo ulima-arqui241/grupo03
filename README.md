@@ -36,10 +36,56 @@ Bienvenidos al repositorio del Proyecto del Curso del Grupo 3. Aquí encontrará
     - [4.5 Seguridad](/s01-Grupo3-MusicFest/Proyecto/4.%20Tácticas/4.5%20Seguridad.md)
 5. [Propuesta de Arquitectura Inicial](/s01-Grupo3-MusicFest/Proyecto/5.%20Propuesta%20de%20Arquitectura%20Inicial/5.%20Propuesta%20de%20Arquitectura%20Inicial.md)
 6. [Estructura de Archivos Inicial](/s01-Grupo3-MusicFest/Proyecto/6.%20Estructura%20de%20Archivos%20Inicial/6.%20Estructura%20de%20Archivos%20Inicial.md)
-7. Anexos: Tópicos en Arquitectura de Software
+7. Workshop de Atributos de Calidad (QAW)
+    - [7.1 Stakeholders](/s01-Grupo3-MusicFest/Proyecto/7.%20Workshop%20de%20Atributos%20de%20Calidad/7.1%20Stakeholders.md)
+    - [7.2 Brainstorming](/s01-Grupo3-MusicFest/Proyecto/7.%20Workshop%20de%20Atributos%20de%20Calidad/7.2%20Brainstorming.md)
+    - [7.3 Consolidación](/s01-Grupo3-MusicFest/Proyecto/7.%20Workshop%20de%20Atributos%20de%20Calidad/7.3%20Consolidación.md)
+    - [7.4 Priorización](/s01-Grupo3-MusicFest/Proyecto/7.%20Workshop%20de%20Atributos%20de%20Calidad/7.4%20Priorización.md)
+    - [7.5 Refinamiento](/s01-Grupo3-MusicFest/Proyecto/7.%20Workshop%20de%20Atributos%20de%20Calidad/7.5%20Refinamiento.md)
+8. Proceso de Diseño
+    - 8.1 Drivers de Arquitectura
+        - [Funcionalidad Primaria (Casos de Uso)](/s01-Grupo3-MusicFest/Proyecto/8.%20Proceso%20de%20Diseño/8.1%20Drivers%20de%20Arquitectura/CasosDeUso.md)
+        - [Escenarios de Atributos de Calidad](/s01-Grupo3-MusicFest/Proyecto/8.%20Proceso%20de%20Diseño/8.1%20Drivers%20de%20Arquitectura/EscenariosAC.md)
+        - [Restricciones](/s01-Grupo3-MusicFest/Proyecto/8.%20Proceso%20de%20Diseño/8.1%20Drivers%20de%20Arquitectura/Restricciones.md)
+        - [Preocupaciones a Nivel de Arquitectura](/s01-Grupo3-MusicFest/Proyecto/8.%20Proceso%20de%20Diseño/8.1%20Drivers%20de%20Arquitectura/PreocupacionesArqui.md)
+    - 8.2 Pasos de ADD (Attribute Driven Design)
+        1. [Revisión de Entradas](/s01-Grupo3-MusicFest/Proyecto/8.%20Proceso%20ADD/Entradas.md)
+        2. Primera Iteración: Fundamentos y Especificación Inicial
+            - [Paso 2](/s01-Grupo3-MusicFest/Proyecto/8.%20Proceso%20ADD/Iteracion%201/Paso%202.md)
+            - [Paso 3](/s01-Grupo3-MusicFest/Proyecto/8.%20Proceso%20ADD/Iteracion%201/Paso%203.md)
+            - [Paso 4](/s01-Grupo3-MusicFest/Proyecto/8.%20Proceso%20ADD/Iteracion%201/Paso%204.md)
+            - [Paso 5](/s01-Grupo3-MusicFest/Proyecto/8.%20Proceso%20ADD/Iteracion%201/Paso%205.md)
+            - [Paso 6](/s01-Grupo3-MusicFest/Proyecto/8.%20Proceso%20ADD/Iteracion%201/Paso%206.md)
+            - [Paso 7](/s01-Grupo3-MusicFest/Proyecto/8.%20Proceso%20ADD/Iteracion%201/Paso%207.md)
+        3. Segunda Iteración: Ampliación y Escalabilidad
+            - [Paso 2](/s01-Grupo3-MusicFest/Proyecto/8.%20Proceso%20ADD/Iteracion%202/Paso%202.md)
+            - [Paso 3](/s01-Grupo3-MusicFest/Proyecto/8.%20Proceso%20ADD/Iteracion%202/Paso%203.md)
+            - [Paso 4](/s01-Grupo3-MusicFest/Proyecto/8.%20Proceso%20ADD/Iteracion%202/Paso%204.md)
+            - [Paso 5](/s01-Grupo3-MusicFest/Proyecto/8.%20Proceso%20ADD/Iteracion%202/Paso%205.md)
+            - [Paso 6](/s01-Grupo3-MusicFest/Proyecto/8.%20Proceso%20ADD/Iteracion%202/Paso%206.md)
+            - [Paso 7](/s01-Grupo3-MusicFest/Proyecto/8.%20Proceso%20ADD/Iteracion%202/Paso%207.md)
+        4. Tercera Iteración: Gestión y Optimización
+            - [Paso 2](/s01-Grupo3-MusicFest/Proyecto/8.%20Proceso%20ADD/Iteracion%203/Paso%202.md)
+            - [Paso 3](/s01-Grupo3-MusicFest/Proyecto/8.%20Proceso%20ADD/Iteracion%203/Paso%203.md)
+            - [Paso 4](/s01-Grupo3-MusicFest/Proyecto/8.%20Proceso%20ADD/Iteracion%203/Paso%204.md)
+            - [Paso 5](/s01-Grupo3-MusicFest/Proyecto/8.%20Proceso%20ADD/Iteracion%203/Paso%205.md)
+            - [Paso 6](/s01-Grupo3-MusicFest/Proyecto/8.%20Proceso%20ADD/Iteracion%203/Paso%206.md)
+            - [Paso 7](/s01-Grupo3-MusicFest/Proyecto/8.%20Proceso%20ADD/Iteracion%203/Paso%207.md)
+9. [Aplicación de Patrones de Arquitectura](/s01-Grupo3-MusicFest/Proyecto/9.%20Aplicacion%20de%20Patrones%20de%20Arquitectura/AplicacionDePatronesdeArquitectura.md)
+
+10. [Prototipo del Sistema](/s01-Grupo3-MusicFest/Proyecto/10.%20Prototipo.md)
+
+11. Anexos:
+
+- Tópicos en Arquitectura de Software (1)
     - [Arquitectura Orientada a Eventos](/s01-Grupo3-MusicFest/Integrantes/Alejandro%20Silva/Componente%20Individual/Informe.md)
     - [Comparación de Frameworks Front End](/s01-Grupo3-MusicFest/Integrantes/Johan%20Oblitas/Componente%20Individual/Informe.md)
     - [API Management](/s01-Grupo3-MusicFest/Integrantes/Luciana%20Vasquez/Componente%20Individual/Informe.md)
+- Patrones Cloud
     - [Patrón Cloud: Gateway Aggregation](/s01-Grupo3-MusicFest/Integrantes/Alejandro%20Silva/)
     - [Patrón Cloud: Federated Identity](/s01-Grupo3-MusicFest/Integrantes/Johan%20Oblitas/Componente%20Individual%202/Informe.md)
     - [Patrón Cloud: Publisher/Subscriber](/s01-Grupo3-MusicFest/Integrantes/Luciana%20Vasquez/Componente%20Individual/PatronCloud.md)
+- Tópicos en Arquitectura de Software (2)
+    - Manejo de Datos Geoespaciales
+    - Data Engineering
+    - Inteligencia Artificial - NLP

@@ -49,34 +49,31 @@ Bienvenidos al repositorio del Proyecto del Curso del Grupo 3. Aquí encontrará
         - [Restricciones](/s01-Grupo3-MusicFest/Proyecto/8.%20Proceso%20de%20Diseño/8.1%20Drivers%20de%20Arquitectura/Restricciones.md)
         - [Preocupaciones a Nivel de Arquitectura](/s01-Grupo3-MusicFest/Proyecto/8.%20Proceso%20de%20Diseño/8.1%20Drivers%20de%20Arquitectura/PreocupacionesArqui.md)
     - 8.2 Pasos de ADD (Attribute Driven Design)
-        1. [Revisión de Entradas](/s01-Grupo3-MusicFest/Proyecto/8.%20Proceso%20de%20Diseño/Entradas.md)
+        1. [Revisión de Entradas](/s01-Grupo3-MusicFest/Proyecto/8.%20Proceso%20ADD/Entradas.md)
         2. Primera Iteración: Fundamentos y Especificación Inicial
-            - Paso 1
-            - Paso 2
-            - Paso 3
-            - Paso 4
-            - Paso 5
-            - Paso 6
-            - Paso 7
+            - [Paso 2](/s01-Grupo3-MusicFest/Proyecto/8.%20Proceso%20ADD/Iteracion%201/Paso%202.md)
+            - [Paso 3](/s01-Grupo3-MusicFest/Proyecto/8.%20Proceso%20ADD/Iteracion%201/Paso%203.md)
+            - [Paso 4](/s01-Grupo3-MusicFest/Proyecto/8.%20Proceso%20ADD/Iteracion%201/Paso%204.md)
+            - [Paso 5](/s01-Grupo3-MusicFest/Proyecto/8.%20Proceso%20ADD/Iteracion%201/Paso%205.md)
+            - [Paso 6](/s01-Grupo3-MusicFest/Proyecto/8.%20Proceso%20ADD/Iteracion%201/Paso%206.md)
+            - [Paso 7](/s01-Grupo3-MusicFest/Proyecto/8.%20Proceso%20ADD/Iteracion%201/Paso%207.md)
         3. Segunda Iteración: Ampliación y Escalabilidad
-            - Paso 1
-            - Paso 2
-            - Paso 3
-            - Paso 4
-            - Paso 5
-            - Paso 6
-            - Paso 7
+            - [Paso 2](/s01-Grupo3-MusicFest/Proyecto/8.%20Proceso%20ADD/Iteracion%202/Paso%202.md)
+            - [Paso 3](/s01-Grupo3-MusicFest/Proyecto/8.%20Proceso%20ADD/Iteracion%202/Paso%203.md)
+            - [Paso 4](/s01-Grupo3-MusicFest/Proyecto/8.%20Proceso%20ADD/Iteracion%202/Paso%204.md)
+            - [Paso 5](/s01-Grupo3-MusicFest/Proyecto/8.%20Proceso%20ADD/Iteracion%202/Paso%205.md)
+            - [Paso 6](/s01-Grupo3-MusicFest/Proyecto/8.%20Proceso%20ADD/Iteracion%202/Paso%206.md)
+            - [Paso 7](/s01-Grupo3-MusicFest/Proyecto/8.%20Proceso%20ADD/Iteracion%202/Paso%207.md)
         4. Tercera Iteración: Gestión y Optimización
-            - Paso 1
-            - Paso 2
-            - Paso 3
-            - Paso 4
-            - Paso 5
-            - Paso 6
-            - Paso 7
-9. Aplicación de Patrones de Arquitectura
+            - [Paso 2](/s01-Grupo3-MusicFest/Proyecto/8.%20Proceso%20ADD/Iteracion%203/Paso%202.md)
+            - [Paso 3](/s01-Grupo3-MusicFest/Proyecto/8.%20Proceso%20ADD/Iteracion%203/Paso%203.md)
+            - [Paso 4](/s01-Grupo3-MusicFest/Proyecto/8.%20Proceso%20ADD/Iteracion%203/Paso%204.md)
+            - [Paso 5](/s01-Grupo3-MusicFest/Proyecto/8.%20Proceso%20ADD/Iteracion%203/Paso%205.md)
+            - [Paso 6](/s01-Grupo3-MusicFest/Proyecto/8.%20Proceso%20ADD/Iteracion%203/Paso%206.md)
+            - [Paso 7](/s01-Grupo3-MusicFest/Proyecto/8.%20Proceso%20ADD/Iteracion%203/Paso%207.md)
+9. [Aplicación de Patrones de Arquitectura](/s01-Grupo3-MusicFest/Proyecto/9.%20Aplicacion%20de%20Patrones%20de%20Arquitectura/AplicacionDePatronesdeArquitectura.md)
 
-10. Prototipo del Sistema
+10. [Prototipo del Sistema](/s01-Grupo3-MusicFest/Proyecto/10.%20Prototipo.md)
 
 11. Anexos:
 
