@@ -20,6 +20,9 @@ El NLP tiene una amplia gama de aplicaciones en la vida real, entre ellas:
 - **Búsqueda y Recuperación de Información**: Motores de búsqueda como Google utilizan técnicas de NLP para entender las consultas de los usuarios y recuperar información relevante.
 
 ### 4. Demo
+
+Link al video: https://drive.google.com/file/d/1LtwPQkApFHNxk5WQuiRCNkcsL-x2Gkr8/view?usp=sharing
+
 Se lleva a cabo un ejercicio práctico que utiliza diferentes librerías  (NLTK, spaCy,  Polyglot) de NLP para demostrar cómo se pueden aplicar estas herramientas en la práctica, especificamente se usa un texto obtenido de un hilo en Twitter, el texto se guardo previamente en un archivo .txt
 
 A partir del texto se realiza: 
