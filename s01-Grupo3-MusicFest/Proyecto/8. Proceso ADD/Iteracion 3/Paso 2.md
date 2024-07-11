@@ -7,23 +7,21 @@
 **Drivers Relacionados:**
 
 **Casos de Uso:**
-- UC-09
-- UC-10
-- UC-11
-- UC-12
-- UC-04
+- CU-09
+- CU-10
+- CU-04
 
 **Escenarios de Atributos de Calidad:**
-- ACQ-01
-- ACQ-03
-- ACQ-04
-- ACQ-05
-- ACQ-09
-- ACQ-12
+- QA-01
+- QA-03
+- QA-04
+- QA-05
+- QA-09
+- QA-12
 
 **Preocupaciones:**
-- ARQ-04
-- ARQ-05
+- CRN-04
+- CRN-05
 
 **Restricciones:**
-- CON-5
+- CON-05

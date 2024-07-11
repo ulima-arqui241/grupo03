@@ -1,0 +1,7 @@
+# Elementos de arquitecturas y asignacion de responsabilidades
+
+| Código | Decisión de Diseño               | Fundamentación                                                                                                                             |
+|--------|----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
+| DEC-08  | Instanciar Módulo de Búsqueda y Filtrado | Facilitar la búsqueda y filtrado de eventos según varios criterios (categoría, ubicación, nombre). Permite manejar transacciones y relaciones complejas, asegurando la integridad de los datos y optimizando la gestión de pedidos y el historial de compras (CRN-03, CRN-05). |
+| DEC-09  | Instanciar Gestión de Pedidos    | Gestionar el proceso de pedidos, incluyendo la creación, actualización y cancelación de pedidos. Permite manejar transacciones y relaciones complejas, asegurando la integridad de los datos y optimizando la gestión de pedidos y el historial de compras (CRN-03, CRN-05). |
+| DEC-10  | Instanciar Sistema de Notificaciones | Enviar notificaciones al usuario sobre la confirmación de compras, cambios en eventos y recordatorios. Permite manejar transacciones y relaciones complejas, asegurando la integridad de los datos y optimizando la gestión de pedidos y el historial de compras (CRN-03, CRN-05). |

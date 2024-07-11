@@ -8,15 +8,15 @@
 ## Funcionalidad Primaria
 
 ### Catálogo de Eventos
-- UC-01, UC-02
+- CU-01, CU-02
 ### Compra de Tickets
-- UC-03, UC-04, UC-05, UC-06
-### Gestión de Pedidos
-- UC-07, UC-08
+- CU-03, CU-04, CU-05, CU-06
+### Gestión de Tickets
+- CU-07
 ### Panel de Managers
-- UC-09, UC-10, UC-11,UC-12
+- CU-08, CU-09
 ### Notificaciones
-- UC-13, UC-14, UC-15
+- CU-10
 
 ## Escenarios de Calidad
 - Todos los escenarios de atributos de calidad (del escenario EAC-1 al EAC-12) fueron seleccionados por su relevancia definida para los stakeholders

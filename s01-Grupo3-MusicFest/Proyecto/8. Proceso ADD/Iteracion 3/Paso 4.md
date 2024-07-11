@@ -2,7 +2,8 @@
 
 | Código | Decisión de Diseño                       | Fundamentación                                                                                                                                              |
 |--------|------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| DEC-3  | Uso de una Base de Datos Relacional (SQL)            | Permite manejar transacciones y relaciones complejas, asegurando la integridad de los datos y optimizando la gestión de pedidos y el historial de compras (ARQ-03, ARQ-05).                                                 |
+| DEC-11  | Implementación de Caching             | Mejora el rendimiento del sistema y reduce el tiempo de respuesta mediante el almacenamiento en caché de datos frecuentes (CRN-03).      |
+| DEC-12  | Optimización de Consultas SQL         | Mejora el rendimiento del sistema optimizando las consultas a la base de datos para reducir el tiempo de ejecución (CRN-03, CRN-05).         |
 
 
-## Diagrama de Capas 
+

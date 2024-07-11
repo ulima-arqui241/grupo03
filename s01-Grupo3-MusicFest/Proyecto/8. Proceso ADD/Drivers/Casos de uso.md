@@ -1,0 +1,14 @@
+# Casos de Uso
+
+| Código | Nombre                        | Descripción                                                                                             |
+|--------|-------------------------------|---------------------------------------------------------------------------------------------------------|
+| CU-01  | Visualizar catálogo de eventos| Permitir a los usuarios ver los eventos disponibles con detalles como nombre, marca, fecha límite de compra y número de asientos disponibles. La lista debe cargar rápidamente y permitir ordenar los eventos por diferentes criterios. |
+| CU-02  | Búsqueda de eventos           | Permitir a los usuarios buscar eventos por nombre o marca. Los resultados de búsqueda deben ser precisos y mostrarse rápidamente. |
+| CU-03  | Comprar tickets               | Permitir a los usuarios seleccionar un evento y la cantidad de tickets que desean comprar, ver el precio total, ingresar información de contacto y pago, y confirmar la compra. El usuario debe poder poner la compra en una canasta y seguir comprando. |
+| CU-04  | Confirmación de compra        | Enviar un correo electrónico al usuario con la confirmación de la compra y los detalles del ticket. El correo debe incluir detalles como el evento, la cantidad de tickets, el precio total y la fecha del evento. |
+| CU-05  | Cancelación de compra         | Permitir a los usuarios cancelar sus compras antes de la fecha límite de compra y enviar una confirmación por correo electrónico de la cancelación. |
+| CU-06  | Historial de compras          | Permitir a los usuarios ver sus compras anteriores, incluyendo los tickets de compra, el estado de la compra, la fecha de compra y la fecha límite de compra. Los usuarios deben poder cancelar compras dentro de la fecha límite. |
+| CU-07  | Ver detalles del evento       | Permitir a los usuarios ver los detalles completos de un evento seleccionado, incluyendo la descripción, fecha, hora, lugar y disponibilidad de asientos. |
+| CU-08  | Crear evento                  | Permitir a los managers crear nuevos eventos, incluyendo detalles como nombre, fecha, hora, lugar y descripción. Los managers deben poder especificar la magnitud del evento (pequeño, mediano, masivo). |
+| CU-09  | Editar y eliminar eventos     | Permitir a los managers editar y eliminar eventos creados por ellos, incluyendo la modificación de detalles como fecha, hora, lugar y descripción. |
+| CU-10  | Enviar notificaciones         | El sistema debe enviar notificaciones a los usuarios sobre la confirmación de compra de tickets, asignación de tickets, cancelación de eventos, cambio de fecha o lugar de eventos, y agotamiento de tickets. Las notificaciones pueden ser enviadas por correo electrónico y/o mensajes de texto. |

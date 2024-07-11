@@ -1,0 +1,8 @@
+# Elementos de arquitecturas y asignacion de responsabilidades
+
+| Código | Decisión de Diseño          | Fundamentación                                                                                                                             |
+|--------|-----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
+| DEC-03  | Instanciar Interfaz de Usuario (UI) | Mostrar el catálogo de eventos, gestionar la interacción del usuario para la selección de eventos y la compra de tickets. Permite una separación clara de responsabilidades y facilita el mantenimiento y la escalabilidad (CRN-04). |
+| DEC-04  | Instanciar Lógica de Negocio | Procesar la lógica de la aplicación, incluyendo la validación de datos, gestión de transacciones y coordinación de flujo de trabajo. Proporciona un entorno controlado para el despliegue y la ejecución de la aplicación, asegurando la estabilidad y el rendimiento (CRN-03, CRN-01). |
+| DEC-05  | Instanciar Acceso a Datos   | Gestionar la comunicación con la base de datos, incluyendo las operaciones CRUD (Create, Read, Update, Delete). Permite una separación clara de responsabilidades y facilita el mantenimiento y la escalabilidad (CRN-04). |
+| DEC-06  | Instanciar Servidor Web     | Alojar la aplicación y manejar las solicitudes HTTP de los usuarios. Proporciona un entorno controlado para el despliegue y la ejecución de la aplicación, asegurando la estabilidad y el rendimiento (CRN-03, CRN-01). |
