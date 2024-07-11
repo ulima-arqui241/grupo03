@@ -86,6 +86,6 @@ Bienvenidos al repositorio del Proyecto del Curso del Grupo 3. Aquí encontrará
     - [Patrón Cloud: Federated Identity](/s01-Grupo3-MusicFest/Integrantes/Johan%20Oblitas/Componente%20Individual%202/Informe.md)
     - [Patrón Cloud: Publisher/Subscriber](/s01-Grupo3-MusicFest/Integrantes/Luciana%20Vasquez/Componente%20Individual/PatronCloud.md)
 - Tópicos en Arquitectura de Software (2)
-    - Manejo de Datos Geoespaciales
-    - Data Engineering
-    - Inteligencia Artificial - NLP
+    - [Manejo de Datos Geoespaciales](/s01-Grupo3-MusicFest/Integrantes/Alejandro%20Silva/Componente%20postgis/Informe.md)
+    - [Data Engineering](/s01-Grupo3-MusicFest/Integrantes/Johan%20Oblitas/Componente%20Individual%202/Informe.md)
+    - [Inteligencia Artificial - NLP](/s01-Grupo3-MusicFest/Integrantes/Luciana%20Vasquez/Componente%20Individual%202/Informe.md)
