@@ -1,6 +1,7 @@
 # Iteración 2: Ampliación y Escalabilidad
 
 **Objetivos:**
+- Soportar la funcionalidad primaria.
 - Ampliar la funcionalidad del sistema y asegurar la escalabilidad.
 - Añadir funcionalidades de gestión de pedidos y notificaciones.
 

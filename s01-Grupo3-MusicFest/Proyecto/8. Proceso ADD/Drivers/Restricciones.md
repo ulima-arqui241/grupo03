@@ -2,8 +2,8 @@
 
 | Código Restricción | Descripción                                                                                                                     |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------|
-| CON-01              | El sistema debe poder ser accedido desde un navegador (Chrome V3+, Firefox V4+, IE8+) en diferentes plataformas: Windows, Mac OS, Linux. |
-| CON-02              | El sistema debe estar desplegado en un servidor web   |
-| CON-03              | El sistema debe cumplir con los estándares de seguridad PCI-DSS para la gestión de datos de tarjetas de crédito y débito.        |
-| CON-04              | El sistema debe diseñarse para escalar de manera eficiente durante eventos de alta demanda como ventas de entradas para conciertos populares. |
-| CON-05              | El sistema debe ser completamente responsivo y compatible con dispositivos móviles.                                              |
+| CON-01              | El sistema debe ser diseñado para escalar y manejar eficientemente aumentos en la demanda, como durante la venta de entradas para conciertos populares. Un mínimo de 1000 usuarios en simultáneo debe ser soportado. |
+| CON-02              | El sistema debe integrar una API de pago externa que cumpla con los estándares de seguridad PCI-DSS para la gestión de datos de tarjetas de crédito y débito.       |
+| CON-03              | El sistema debe estar en conformidad con el Reglamento General de Protección de Datos (GDPR) para preservar la privacidad de los usuarios.  |
+| CON-04              | Se debe emplear un servidor de base de datos relacional exclusivamente para la gestión de base de datos estructurados, sin ser utilizado para otros fines. |
+| CON-05              | Se debe emplear un servidor de base de datos no relacional para optimizar la capacidad de lectura de datos y rendimiento general del sistema. |

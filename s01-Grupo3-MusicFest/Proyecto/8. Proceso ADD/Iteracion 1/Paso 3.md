@@ -2,6 +2,8 @@
 
 Ya que se busca establecer la funcionalidad básica del sistema, los elementos a refinar se centran en proporcionar una estructura sólida y funcionalidades esenciales.
 
+[Diagrama de Contexto]
+
 1. **Interfaz de Usuario (UI)**
    - Diseñar y desarrollar la interfaz inicial para la visualización del catálogo de eventos.
 

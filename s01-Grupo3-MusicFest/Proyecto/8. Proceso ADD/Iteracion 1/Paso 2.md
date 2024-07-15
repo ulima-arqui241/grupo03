@@ -1,8 +1,10 @@
-# Iteración 1: Fundamentos y Especificación Inicial
+# Iteración 1: Estructura y Fundamentos Básicos
 
 **Objetivos:**
-- Establecer la arquitectura base y los componentes principales.
-- Asegurar la funcionalidad básica del sistema, incluyendo el acceso, el catálogo de eventos y la compra de tickets.
+- Establecer la estructura general del sistema.
+- Asegurar la funcionalidad básica de los módulos del sistema.
+- Definir los componentes de backend para cada microservicio de la arquitectura.
+- Plantear integraciones con sistemas externos.
 
 **Drivers Relacionados:**
 
@@ -21,9 +23,8 @@
 **Preocupaciones:**
 - CRN-01
 - CRN-02
-- CRN-03
 
 **Restricciones:**
 - CON-01
-- CON-02
-- CON-03
+- CON-04
+- CON-05
