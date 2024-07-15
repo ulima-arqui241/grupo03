@@ -1,12 +1,7 @@
 # Elementos a Refinar
 
-Ya que se busca establecer la funcionalidad básica del sistema, los elementos a refinar se centran en proporcionar una estructura sólida y funcionalidades esenciales.
+Como el diseño del sistema se está realizando desde cero, en la presente sección se muestra el diagrama de contexto del aplicativo web, el cual proporciona una representación visual de cómo interactúa el sistema en desarrollo con entidades externos, destacando el flujo de datos entre los componentes.
 
-1. **Interfaz de Usuario (UI)**
-   - Diseñar y desarrollar la interfaz inicial para la visualización del catálogo de eventos.
+[Diagrama de Contexto]
 
-2. **Sistema de Pago**
-   -  Implementar el módulo de pago seguro que cumpla con los estándares PCI-DSS.
-
-3. **Gestor de Sesiones**
-   - Desarrollar el sistema de gestión de sesiones para usuarios.
+[Guía](https://es.venngage.com/blog/diagrama-de-contexto/)

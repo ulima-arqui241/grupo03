@@ -18,10 +18,8 @@ Bienvenidos al repositorio del Proyecto del Curso del Grupo 3. Aquí encontrará
     - [1.3 Estructura del Equipo](/s01-Grupo3-MusicFest/Proyecto/1.%20Caso%20de%20Negocio/1.3%20Estructura%20del%20Equipo.md)
     - [1.4 Listado de Stakeholders](/s01-Grupo3-MusicFest/Proyecto/1.%20Caso%20de%20Negocio/1.4%20Listado%20de%20Stakeholders.md)
 2. Requerimientos
-    - [2.1 Módulo 1: Compra Tickets](/s01-Grupo3-MusicFest/Proyecto/2.%20Requerimientos/2.1%20Módulo%201%20Compra%20Tickets.md)
-    - [2.2 Módulo 2: Panel de Managers](/s01-Grupo3-MusicFest/Proyecto/2.%20Requerimientos/2.2%20Módulo%202%20Panel%20de%20Managers.md)
-    - [2.3 Módulo 3: Notificaciones](/s01-Grupo3-MusicFest/Proyecto/2.%20Requerimientos/2.3%20Módulo%203%20Notificaciones.md)
-    - [2.4 Requerimientos de Atributos de Calidad](/s01-Grupo3-MusicFest/Proyecto/2.%20Requerimientos/2.4%20Requerimientos%20de%20Atributos%20de%20Calidad.md)
+    - [2.1 Requerimientos Funcionales](/s01-Grupo3-MusicFest/Proyecto/2.%20Requerimientos/2.1%20Requerimientos%20Funcionales.md)
+    - [2.2 Requerimientos de Atributos de Calidad](/s01-Grupo3-MusicFest/Proyecto/2.%20Requerimientos/2.2%20Requerimientos%20de%20Atributos%20de%20Calidad.md)
 3. Decisiones a Nivel de Arquitectura
     - [3.1 Asignación de Responsabilidades](/s01-Grupo3-MusicFest/Proyecto/3.%20Decisiones%20a%20Nivel%20de%20Arquitectura/3.1%20Asignación%20de%20Responsabilidades.md)
     - [3.2 Modelo de Coordinación](/s01-Grupo3-MusicFest/Proyecto/3.%20Decisiones%20a%20Nivel%20de%20Arquitectura/3.2%20Modelo%20de%20Coordinación.md)
@@ -86,6 +84,6 @@ Bienvenidos al repositorio del Proyecto del Curso del Grupo 3. Aquí encontrará
     - [Patrón Cloud: Federated Identity](/s01-Grupo3-MusicFest/Integrantes/Johan%20Oblitas/Componente%20Individual%202/Informe.md)
     - [Patrón Cloud: Publisher/Subscriber](/s01-Grupo3-MusicFest/Integrantes/Luciana%20Vasquez/Componente%20Individual/PatronCloud.md)
 - Tópicos en Arquitectura de Software (2)
-    - Manejo de Datos Geoespaciales
-    - Data Engineering
-    - Inteligencia Artificial - NLP
+    - [Manejo de Datos Geoespaciales](/s01-Grupo3-MusicFest/Integrantes/Alejandro%20Silva/Componente%20postgis/Informe.md)
+    - [Data Engineering](/s01-Grupo3-MusicFest/Integrantes/Johan%20Oblitas/Componente%20Individual%202/Informe.md)
+    - [Inteligencia Artificial - NLP](/s01-Grupo3-MusicFest/Integrantes/Luciana%20Vasquez/Componente%20Individual%202/Informe.md)

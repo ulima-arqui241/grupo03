@@ -39,3 +39,23 @@ El patrón de arquitectura en capas divide el sistema en capas distintas, cada u
 - Los componentes de cada capa pueden ser reutilizados en diferentes partes del sistema. 
 
 Implementando los patrones de cliente-servidor y arquitectura en capas, nuestro proyecto asegura una separación clara de responsabilidades, mejor mantenibilidad, escalabilidad y seguridad. 
+
+## Patron de Arquitectura Gateway Aggregation
+Para llevar a cabo tareas, el cliente debe de realizar multiples llamadas a varios servicios en el backend, esto presenta un desafio en el rendimiento, mantenibilidad y escalamiento al agregar nuevas caracteristicas.   
+
+Para solucionar esto, el patron GA utiliza como intermediario un API Gateway, el permite al cliente realizar solicitudes al API y este realizara las solicitudes a los diversos servicios simultaneamente, permitiendo juntar los resultados de estos y enviarlos al clientes en una sola respuesta, ahorrando recursos y permitiendo la escalabilidad de servicios adicionales.    
+
+La desventaja de tener un punto unico de fallo el API Gateway, es minimizado dado que los proveedores de nube tienen mayormente un Nivel de Servicio del 99.95% y se puede escalar la cantidad de APIS segun la demanda.
+
+## Patron de Arquitectura Publish-Subscriber
+
+El patron de arquitectura de Publish-Subscriber(PS), permite utilizar mensajeria asincrona para proporcionar informacion a otros componentes a medida que suceden los eventos
+
+**Servicio publicador**
+- Este servicio puede ser una API que recibe un evento o un servicio que crea un evento el cual debe de ser distribuido a otros servicios.
+**Message Broker**
+- Un canal que recibe eventos en mensajes, mediante un formato conocido y envia estos mensajes a multiples servicios.
+**Servicios subscritos**
+- Estos servicios reciben los mensajes del canal correspondientes, estos servicios pueden consumir estos mensajes segun sus diferentes capacidades de procesamiento.
+
+Implementando el patron PS, permite al proyecto realizar mantenimiento, escalamiento y separar responsabilidades de los distintos servicios.

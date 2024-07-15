@@ -1,6 +1,7 @@
 # Iteración 3: Gestión y Optimización
 
 **Objetivos:**
+- Abordar requerimientos de atributos de calidad.
 - Completar la funcionalidad del panel de managers.
 - Optimizar el sistema para asegurar mantenibilidad, disponibilidad y rendimiento.
 
