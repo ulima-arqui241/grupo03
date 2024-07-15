@@ -7,9 +7,14 @@
 
 ## Funcionalidad Primaria
 
-### Soportar la funcionalidades base
+### Soportar las funcionalidades base
 - UC01: Visualización catálogo de eventos
 - UC03: Compra de Tickets
+- UC05: Visualización de detalles del evento
+- UC06: Crear evento
+- UC08: Envío de notificaciones
+- UC09: Registro de cuenta
+- UC10: Inicio de sesión
 
 ### Soporte por atributos y restricciones asociadas
 - UC11: Gestión del rendimiento

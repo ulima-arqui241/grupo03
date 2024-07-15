@@ -13,16 +13,20 @@
 - CU-03
 - CU-05
 - CU-06
+- CU-11
 
 **Escenarios de Atributos de Calidad:**
 - QA-01
 - QA-02
-- QA-10
-- QA-11
+- QA-04
+- QA-05
+- QA-14
+- QA-17
 
 **Preocupaciones:**
 - CRN-01
 - CRN-02
+- CRN-03
 
 **Restricciones:**
 - CON-01

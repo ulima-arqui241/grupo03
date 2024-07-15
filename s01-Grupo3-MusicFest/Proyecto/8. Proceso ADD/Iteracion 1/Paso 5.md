@@ -2,7 +2,8 @@
 
 | Código | Decisión de Diseño          | Fundamentación                                                                                                                             |
 |--------|-----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
-| DEC-03  | Instanciar Interfaz de Usuario (UI) | Mostrar el catálogo de eventos, gestionar la interacción del usuario para la selección de eventos y la compra de tickets. Permite una separación clara de responsabilidades y facilita el mantenimiento y la escalabilidad (CRN-04). |
-| DEC-04  | Instanciar Lógica de Negocio | Procesar la lógica de la aplicación, incluyendo la validación de datos, gestión de transacciones y coordinación de flujo de trabajo. Proporciona un entorno controlado para el despliegue y la ejecución de la aplicación, asegurando la estabilidad y el rendimiento (CRN-03, CRN-01). |
-| DEC-05  | Instanciar Acceso a Datos   | Gestionar la comunicación con la base de datos, incluyendo las operaciones CRUD (Create, Read, Update, Delete). Permite una separación clara de responsabilidades y facilita el mantenimiento y la escalabilidad (CRN-04). |
-| DEC-06  | Instanciar Servidor Web     | Alojar la aplicación y manejar las solicitudes HTTP de los usuarios. Proporciona un entorno controlado para el despliegue y la ejecución de la aplicación, asegurando la estabilidad y el rendimiento (CRN-03, CRN-01). |
+| DEC-03  | Retirar las fuentes de datos locales dentro de la aplicación. | No se considera necesario almacenar datos localmente, dado que la conexión suele ser confiable. Se optará por utilizar conexiones directas con bases de datos PostgreSQL y MongoDB. (CON-04, CON-05). |
+| DEC-04  | Instanciar API Gateway dedicado para la comunicación con los microservicios propuestos | Encapsula la lógica necesaria para interactuar con los servidores de manera uniforme, ocultando los detalles de implementación específicos de cada servidor detrás de una capa de abstracción. Ayuda con la consecución de QA-04 y tiene impacto en conseguir UC-11.
+
+
+Usar formato Nygard.

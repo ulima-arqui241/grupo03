@@ -1,9 +1,9 @@
-# Iteración 2: Ampliación y Escalabilidad
+# Iteración 2: Identificación de estructuras de soporte de funcionalidad primaria
 
 **Objetivos:**
 - Soportar la funcionalidad primaria.
-- Ampliar la funcionalidad del sistema y asegurar la escalabilidad.
-- Añadir funcionalidades de gestión de pedidos y notificaciones.
+- Avanzar desde una descripción general hacia un nivel de detalle más profundo.
+- Desarrollar estructuras de soporte para la funcionalidad principal dentro del marco de las preocupaciones a nivel de arquitectura.
 
 **Drivers Relacionados:**
 
