@@ -30,8 +30,7 @@ Se instanciará un Panel de Managers que permita a los managers crear y gestiona
 ### Estado: Aceptado
 
 ### Contexto
-Refinar la base de datos para mejorar el rendimiento y asegurar la integridad de los datos.
-
+Optimizar la base de datos para mejorar el rendimiento y garantizar la integridad de los datos.
 ### Decisión
 Se optimizará la base de datos para mejorar su rendimiento y asegurar la integridad de los datos. Esta decisión incluye la refinación de la estructura de la base de datos y la optimización de consultas SQL para reducir el tiempo de ejecución y mejorar la eficiencia general.
 
@@ -49,7 +48,7 @@ Se optimizará la base de datos para mejorar su rendimiento y asegurar la integr
 ### Estado: Aceptado
 
 ### Contexto
-Asegurar que la experiencia del usuario sea fluida y satisfactoria, incluyendo la visualización rápida de eventos y la calificación de la experiencia de compra.
+Garantizar una experiencia de usuario fluida y satisfactoria, incluyendo la visualización rápida de eventos y la posibilidad de calificar la experiencia de compra.
 
 ### Decisión
 Se implementarán mejoras en la experiencia del usuario para asegurar que sea fluida y satisfactoria. Esto incluye la visualización rápida de eventos y la posibilidad de calificar la experiencia de compra. Estas mejoras buscan incrementar la satisfacción del usuario y optimizar el rendimiento del sistema.
