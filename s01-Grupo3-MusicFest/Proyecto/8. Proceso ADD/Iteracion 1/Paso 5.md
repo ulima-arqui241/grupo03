@@ -18,14 +18,14 @@ La decisión de utilizar conexiones directas con bases de datos PostgreSQL y Mon
 
 ### Consecuencias
 
-- **Ventajas:**
+- **Positivas:**
     - **Reducción de complejidad:** Eliminar el almacenamiento local simplifica la arquitectura de la aplicación.
     - **Acceso a características avanzadas:** Aprovecha las capacidades avanzadas de PostgreSQL y MongoDB para la gestión de datos.
-- **Desventajas:**
+- **Negativas:**
     - **Dependencia de la conexión:** Requiere una conexión constante y confiable a la base de datos.
     - **Latencia potencial:** Puede introducir latencia en las operaciones de datos debido a la comunicación con la base de datos remota.
 
-## DEC-08 - Instanciar API Gateway dedicado para la comunicación con los microservicios propuestos
+## DEC-08- Instanciar API Gateway dedicado para la comunicación con los microservicios propuestos
 
 ### Estado: Aceptado
 
@@ -37,9 +37,9 @@ Se implementará un API Gateway dedicado para encapsular la lógica necesaria y 
 
 ### Consecuencias
 
-- **Ventajas:**
+- **Positivas:**
     - **Encapsulación de lógica:** Simplifica la interacción con los microservicios al ocultar los detalles de implementación.
     - **Uniformidad en la comunicación:** Proporciona una capa de abstracción que permite una comunicación uniforme con los microservicios.
-- **Desventajas:**
+- **Negativas:**
     - **Complejidad adicional:** Introduce una capa adicional en la arquitectura que necesita ser gestionada.
     - **Punto único de fallo:** El API Gateway puede convertirse en un punto único de fallo si no se gestiona adecuadamente.
