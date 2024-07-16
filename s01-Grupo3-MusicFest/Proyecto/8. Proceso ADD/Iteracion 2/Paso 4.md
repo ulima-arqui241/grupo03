@@ -20,12 +20,12 @@ Par la gestión de transacciones y relaciones complejas, asegurando la integrida
 ### Decisión
 Se utilizará una base de datos relacional con propiedades ACID para asegurar la integridad de los datos y manejar transacciones y relaciones complejas. Esta decisión optimiza la gestión de pedidos y el historial de compras, proporcionando una estructura confiable para los datos transaccionales.
 
-### Ventajas y Desventajas
+### Consecuencias 
 
-- **Ventajas:**
+- **Positivas:**
     - **Integridad de los datos:** Asegura la consistencia y precisión de los datos.
     - **Manejo de transacciones:** Facilita la gestión de operaciones complejas con múltiples pasos.
-- **Desventajas:**
+- **Negativas:**
     - **Escalabilidad limitada:** Puede tener dificultades para escalar horizontalmente con grandes volúmenes de datos.
     - **Rigidez en el esquema:** Requiere una estructura de datos bien definida y puede ser menos flexible para cambios dinámicos.
 
@@ -39,12 +39,12 @@ Permite registrar y proporcionar un historial de las notificaciones de los difer
 ### Decisión
 Se utilizará una base de datos NoSQL para registrar y gestionar las notificaciones de los distintos servicios. Esta decisión permite manejar formatos de datos no estructurados y proporciona flexibilidad para adaptarse a diferentes tipos de información.
 
-### Ventajas y Desventajas
+### Consecuencias
 
-- **Ventajas:**
+- **Positivas:**
     - **Flexibilidad en el esquema:** Puede manejar datos no estructurados y semiestructurados con facilidad.
     - **Escalabilidad horizontal:** Se adapta bien al crecimiento de datos, permitiendo escalar horizontalmente.
-- **Desventajas:**
+- **Negativas:**
     - **Consistencia eventual:** Puede no garantizar la consistencia inmediata de los datos en todas las réplicas.
     - **Compatibilidad limitada con transacciones:** No todas las bases de datos NoSQL soportan transacciones ACID complejas.
 
