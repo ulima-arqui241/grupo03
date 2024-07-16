@@ -2,11 +2,11 @@
 
 | Código | Decisión de Diseño          | Fundamentación                                                                                                                             |
 |--------|-----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
-| DEC-06  | Retirar las fuentes de datos locales dentro de la aplicación. | No se considera necesario almacenar datos localmente, dado que la conexión suele ser confiable. Se optará por utilizar conexiones directas con bases de datos PostgreSQL y MongoDB. (CON-04, CON-05). |
-| DEC-07  | Instanciar API Gateway dedicado para la comunicación con los microservicios propuestos | Encapsula la lógica necesaria para interactuar con los servidores de manera uniforme, ocultando los detalles de implementación específicos de cada servidor detrás de una capa de abstracción. Ayuda con la consecución de QA-04 y tiene impacto en conseguir UC-11.
+| DEC-07  | Retirar las fuentes de datos locales dentro de la aplicación. | No se considera necesario almacenar datos localmente, dado que la conexión suele ser confiable. Se optará por utilizar conexiones directas con bases de datos PostgreSQL y MongoDB. (CON-04, CON-05). |
+| DEC-08  | Instanciar API Gateway dedicado para la comunicación con los microservicios propuestos | Encapsula la lógica necesaria para interactuar con los servidores de manera uniforme, ocultando los detalles de implementación específicos de cada servidor detrás de una capa de abstracción. Ayuda con la consecución de QA-04 y tiene impacto en conseguir UC-11.
 
 
-## DEC-06 - Retirar las fuentes de datos locales dentro de la aplicación
+## DEC-07 - Retirar las fuentes de datos locales dentro de la aplicación
 
 ### Estado: Aceptado
 
@@ -16,7 +16,7 @@ Por considerarse innecesario almacenar datos localmente en la aplicación debido
 ### Decisión
 La decisión de utilizar conexiones directas con bases de datos PostgreSQL y MongoDB, se tomó para simplificar la arquitectura de la aplicación, reducir la complejidad de la sincronización de datos y aprovechar las características avanzadas de las bases de datos mencionadas.
 
-### Ventajas y Desventajas
+### Consecuencias
 
 - **Ventajas:**
     - **Reducción de complejidad:** Eliminar el almacenamiento local simplifica la arquitectura de la aplicación.
@@ -25,7 +25,7 @@ La decisión de utilizar conexiones directas con bases de datos PostgreSQL y Mon
     - **Dependencia de la conexión:** Requiere una conexión constante y confiable a la base de datos.
     - **Latencia potencial:** Puede introducir latencia en las operaciones de datos debido a la comunicación con la base de datos remota.
 
-## DEC-07 - Instanciar API Gateway dedicado para la comunicación con los microservicios propuestos
+## DEC-08 - Instanciar API Gateway dedicado para la comunicación con los microservicios propuestos
 
 ### Estado: Aceptado
 
@@ -35,7 +35,7 @@ Para optimizar la comunicación con los microservicios propuestos y consolidar l
 ### Decisión
 Se implementará un API Gateway dedicado para encapsular la lógica necesaria y permitir una interacción uniforme con los servidores, ocultando los detalles específicos de cada servidor detrás de una capa de abstracción. Esta decisión contribuye al cumplimiento del objetivo QA-04 y es crucial para alcanzar el objetivo UC-11.
 
-### Ventajas y Desventajas
+### Consecuencias
 
 - **Ventajas:**
     - **Encapsulación de lógica:** Simplifica la interacción con los microservicios al ocultar los detalles de implementación.
