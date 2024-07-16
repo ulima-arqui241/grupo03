@@ -2,8 +2,8 @@
 
 | Código | Decisión de Diseño                       | Fundamentación                                                                                                                                              |
 |--------|------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| DEC-09  | Uso de una Base de Datos Relacional (SQL)            | Permite manejar transacciones y relaciones complejas, asegurando la integridad de los datos y optimizando la gestión de pedidos y el historial de compras (CRN-03, CRN-05).                                                 |
-| DEC-10  | Uso de una Base de Datos No Relacional (SQL)            | Permite registrar y proveer un registro de las notificaciones de los distintos servicios con formatos no estructurados (CRN-03, CRN-05).                                                 |
+| DEC-09  | Uso de una Base de Datos Relacional (SQL)            | Permite manejar transacciones y relaciones complejas, asegurando la integridad de los datos y optimizando la gestión de pedidos y el historial de compras.                                                 |
+| DEC-10  | Uso de una Base de Datos No Relacional (SQL)            | Permite registrar y proveer un registro de las notificaciones de los distintos servicios con formatos no estructurados.                                                 |
 
 ## DEC-09 - Uso de una Base de Datos Relacional con propiedades ACID (SQL)
 
