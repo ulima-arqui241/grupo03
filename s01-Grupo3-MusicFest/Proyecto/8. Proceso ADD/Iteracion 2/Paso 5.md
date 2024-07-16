@@ -2,10 +2,10 @@
 
 | Código | Decisión de Diseño               | Fundamentación                                                                                                                             |
 |--------|----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
-| DEC-09  | Instanciar diagrama de entidad relacion en la base de datos empleando propiedades ACID | Implementar la conexion, usuarios y tablas en la base de datos (CRN-03, CRN-05). |
-| DEC-10  | Instanciar una coleccion de notificiaciones en la base de datos no relacional  | Implementar la conexion y coleccion de notificiaciones en la base de datos no relacional (CRN-03, CRN-05). |
+| DEC-11  | Instanciar diagrama de entidad relacion en la base de datos empleando propiedades ACID | Implementar la conexion, usuarios y tablas en la base de datos (CRN-03, CRN-05). |
+| DEC-12  | Instanciar una coleccion de notificiaciones en la base de datos no relacional  | Implementar la conexion y coleccion de notificiaciones en la base de datos no relacional (CRN-03, CRN-05). |
 
-## DC09 - Instanciar diagrama de entidad relacion en la base de datos empleando propiedades ACID
+## DC11 - Instanciar diagrama de entidad relacion en la base de datos empleando propiedades ACID
 
 ### Estado: Aceptado
 
@@ -21,17 +21,17 @@ Para asegurar lo mencionado anteriormente, se debe de utilizar una base de datos
 
 ### Consecuencias
 
-- **Ventajas**:
+- **Positivas**:
     - **Consistencia de data**: Estas propuedades aseguran que la data permanezca consistentey precisa ante cualquier ejecucion de transacicones
     - **Integridad de la data**: Permite mantener la integridad de la data asegurando que cualquier cambio en la base de datos sea permanente y no se pierda.
     - **Control de concurrencia**: Ayuda a manejar transacciones multiples que ocurren concurrentemente al prevenir la interferencia entre transacciones
     - **Recuperacion**: En caso de falla o caida, el sistema puede recuperar la data hasta el punto de falla o caida.
-- **Desventajas**:
+- **Negativas**:
     - **Desempeño**: Estas propiedades pueden causar una caida en el desempeño del sistema, dado que requieren de procesamiento adicional para asegurar la consistencia y integridad de la data
     - **Escalabilidad**: Es posible que causen un problemas de escalabilidad en sistemas largamente distribuidos, en dodne multiples transacciones ocurren concurrentemente.
     - **Complexidad**: Incrementa la complejidad del sistema y requiere de una cantidad significativa de experiencia y recursos.
 
-## DC10 - Instanciar una coleccion de notificiaciones en la base de datos no relacional
+## DC12 - Instanciar una coleccion de notificiaciones en la base de datos no relacional
 
 ### Estado: Aceptado
 
@@ -43,12 +43,12 @@ Se propone utilizar una base de datos no relacional, para manejar estos datos co
 
 ### Consecuencias
 
-- **Ventajas**:
+- **Positivas**:
     - **Escalabilidad**: Este tipo de BD esta diseñado para expandirse horizontalmente, siendo beneficioso en aplicaciones con grandes cantidades de data y cargas altas de usuarios.
     - **Flexibilidad**: Permite mayor flexibilidad en el modelo de data. Dado que no requiere de un esquema de datos estatico, permitiendo el almacenamiento de data en formatos diferentes.
     - **Alto desempeño**: Estas bases de datos estan optimizadas para modelos de datos especificos, permitiendo un desempeño alto en operaciones de lectura/escritura, especialmente con grandes volumenes de data.
     - **Alta disponibilidad**: Vienen con mecanismos de replicacion y distribucion, asegurando que la base de datos este disponible, inclusive en casos de fallos o mantenimiento.
-- **Desventajas**:
+- **Negativas**:
     - **Consistencia**: Estas bases de datos no emplean principios ACID por lo que es de esperarse problemas de consistencia, en donde la data no es consistente en todos los nodos.
     - **Complejidad**: Mientras flexible, la falta de un esquema estatico de datos introduce una mayor complejidad en las peticiones y logica de agregacion de data.
     - **Soporte limitado para transacciones**: Mayormente no soporta mutiples grabaciones de transacciones ACID o tiene un soporte limitado. Siendo un detrimental en aplicacion con transacciones complejas.
