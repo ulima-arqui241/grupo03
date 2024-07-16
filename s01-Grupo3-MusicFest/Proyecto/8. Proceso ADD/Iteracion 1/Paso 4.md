@@ -22,12 +22,12 @@ La aplicación web necesita una arquitectura escalable, robusta y capaz de sopor
 ### Decisión
 Se decidió por la arquitectura de Flux debido a su capacidad para escalar y desplegar servicios de manera independiente y por su enfoque estructurado y predecible para la gestión del estado, particularmente para aplicaciones React. Esta elección mejora la flexibilidad y el mantenimiento de la aplicación, permitiendo adaptarnos mejor a las demandas cambiantes del mercado y optimizando los recursos de manera más eficiente comparado con una arquitectura monolítica.
 
-### Ventajas y Desventajas
+### Consecuencias
 
-- **Ventajas de Flux:**
+- **Ventajas:**
     - **Flujo de datos unidireccional**: Facilita el seguimiento y la gestión del estado.
     - **Integración con React**: Diseñado para funcionar perfectamente con React.
-- **Desventajas de Flux:**
+- **Desventajas:**
     - **Curva de aprendizaje**: Puede ser difícil de entender al principio.
     - **Verboso**: Requiere más código para implementar las acciones y las tiendas.
 
@@ -41,12 +41,12 @@ La aplicación web necesita una arquitectura del servidor que sea altamente esca
 ### Decisión
 Se implementará la arquitectura de microservicios debido a que permite escalar y desplegar servicios de manera independiente, facilitando la entrega continua de funcionalidades. Esta elección mejora la flexibilidad y el mantenimiento de la aplicación, permitiendo adaptarnos mejor a las demandas cambiantes del mercado y optimizando recursos de manera más eficiente comparado con una arquitectura monolítica.
 
-### Ventajas y Desventajas
+### Consecuencias
 
-- **Ventajas de la Arquitectura de Microservicios:**
+- **Ventajas:**
     - Escalabilidad independiente: Cada servicio puede escalarse de manera autónoma según la demanda.
     - Despliegue continuo: Facilita la entrega continua de nuevas funcionalidades sin afectar a toda la aplicación.
-- **Desventajas de la Arquitectura de Microservicios:**
+- **Desventajas:**
     - Desafíos operativos: Requiere una coordinación continua entre equipos y una gestión compleja de múltiples servicios.
     - Consistencia y costo inicial de infraestructura: El manejo de la consistencia de datos entre servicios y la configuración de la infraestructura adecuada requieren atención adicional.
 
@@ -60,12 +60,12 @@ La aplicación web necesita una estructura física que permita una separación c
 ### Decisión
 Se implementará el patrón de despliegue en 3 capas debido a su capacidad para separar claramente la presentación, la lógica de negocio y la capa de datos. Esta elección mejora la seguridad al aislar cada capa, facilita el mantenimiento y la escalabilidad de la aplicación, y optimiza el rendimiento al permitir una gestión más eficiente de los recursos.
 
-### Ventajas y Desventajas
+### Consecuencias
 
-- **Ventajas del Patrón de Despliegue en 3 Capas:**
+- **Ventajas:**
     - Separación de responsabilidades: Mejora la organización del código y facilita el mantenimiento.
     - Seguridad y escalabilidad: Cada capa puede ser escalada y asegurada de manera independiente, optimizando recursos y protegiendo los datos sensibles.
-- **Desventajas del Patrón de Despliegue en 3 Capas:**
+- **Desventajas:**
     - Complejidad en la configuración inicial: Requiere una planificación y configuración más detallada al inicio.
     - Latencia potencial: La comunicación entre capas puede introducir latencia si no se optimiza adecuadamente.
 
@@ -82,12 +82,12 @@ La aplicación web necesita una interfaz de usuario moderna, dinámica y altamen
 ### Decisión
 Se decidió por React debido a su flexibilidad, rendimiento y la gran comunidad de desarrolladores que lo respalda. React permite crear interfaces de usuario de manera eficiente utilizando componentes reutilizables y un enfoque basado en el estado de la aplicación.
 
-### Ventajas y Desventajas
+### Consecuencias
 
-- **Ventajas de React:**
+- **Ventajas:**
     - Componentización: Facilita la reutilización y el mantenimiento del código.
     - Rendimiento: El uso del Virtual DOM mejora la velocidad de actualización y renderizado.
-- **Desventajas de React:**
+- **Desventajas:**
     - Curva de aprendizaje: Requiere tiempo para dominar conceptos como JSX y el ciclo de vida de los componentes.
     - Ecosistema fragmentado: Depende de otras bibliotecas para funcionalidades completas, lo que puede complicar la integración.
 
@@ -103,12 +103,12 @@ La aplicación web necesita una plataforma de despliegue que sea sencilla, efici
 ### Decisión
 Se decidió por Github Pages debido a su integración directa con los repositorios de GitHub, lo que facilita el proceso de despliegue continuo y la administración de versiones del sitio web. Además, Github Pages ofrece una configuración sencilla y gratuita para alojar sitios web estáticos, lo cual es ideal para nuestro proyecto.
 
-### Ventajas y Desventajas
+### Consecuencias
 
-- **Ventajas de Github Pages:**
+- **Ventajas:**
     - Integración con GitHub: Despliegue continuo y fácil administración de versiones directamente desde el repositorio.
     - Gratuito: No tiene costo adicional y es ideal para proyectos de tamaño pequeño a mediano.
-- **Desventajas de Github Pages:**
+- **Desventajas:**
     - Limitaciones en características: No es adecuado para aplicaciones dinámicas o con backend complejo.
     - Almacenamiento limitado: No es ideal para proyectos que requieren grandes volúmenes de almacenamiento.
 
@@ -124,11 +124,11 @@ La aplicación web necesita un framework de estilos que sea compatible con React
 ### Decisión
 Se decidió por React Bootstrap debido a su familiaridad, amplia adopción y la facilidad de integración con proyectos React existentes. React Bootstrap proporciona componentes pre-estilizados que permiten un desarrollo rápido y consistente con los principios de diseño responsivo.
 
-### Ventajas y Desventajas
+### Consecuencias
 
-- **Ventajas de React Bootstrap:**
+- **Ventajas:**
     - Familiaridad y popularidad: Bootstrap es ampliamente conocido y utilizado, lo que facilita encontrar recursos y soporte.
     - Componentes responsivos: Facilita el desarrollo de interfaces que se adaptan a diferentes tamaños de pantalla.
-- **Desventajas de React Bootstrap:**
+- **Desventajas:**
     - Estilo clásico: Puede parecer menos moderno comparado con otras librerías de estilo más actuales.
     - Dependencia de Bootstrap: Aunque está integrado con React, sigue dependiendo de Bootstrap, lo cual puede limitar la personalización.
