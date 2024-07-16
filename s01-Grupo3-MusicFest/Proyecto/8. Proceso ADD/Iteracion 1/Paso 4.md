@@ -24,10 +24,10 @@ Se decidió por la arquitectura de Flux debido a su capacidad para escalar y des
 
 ### Consecuencias
 
-- **Ventajas:**
+- **Positivas:**
     - **Flujo de datos unidireccional**: Facilita el seguimiento y la gestión del estado.
     - **Integración con React**: Diseñado para funcionar perfectamente con React.
-- **Desventajas:**
+- **Negativas:**
     - **Curva de aprendizaje**: Puede ser difícil de entender al principio.
     - **Verboso**: Requiere más código para implementar las acciones y las tiendas.
 
@@ -43,10 +43,10 @@ Se implementará la arquitectura de microservicios debido a que permite escalar 
 
 ### Consecuencias
 
-- **Ventajas:**
+- **Positivas:**
     - Escalabilidad independiente: Cada servicio puede escalarse de manera autónoma según la demanda.
     - Despliegue continuo: Facilita la entrega continua de nuevas funcionalidades sin afectar a toda la aplicación.
-- **Desventajas:**
+- **Negativas:**
     - Desafíos operativos: Requiere una coordinación continua entre equipos y una gestión compleja de múltiples servicios.
     - Consistencia y costo inicial de infraestructura: El manejo de la consistencia de datos entre servicios y la configuración de la infraestructura adecuada requieren atención adicional.
 
@@ -62,10 +62,10 @@ Se implementará el patrón de despliegue en 3 capas debido a su capacidad para 
 
 ### Consecuencias
 
-- **Ventajas:**
+- **Positivas:**
     - Separación de responsabilidades: Mejora la organización del código y facilita el mantenimiento.
     - Seguridad y escalabilidad: Cada capa puede ser escalada y asegurada de manera independiente, optimizando recursos y protegiendo los datos sensibles.
-- **Desventajas:**
+- **Negativas:**
     - Complejidad en la configuración inicial: Requiere una planificación y configuración más detallada al inicio.
     - Latencia potencial: La comunicación entre capas puede introducir latencia si no se optimiza adecuadamente.
 
@@ -84,10 +84,10 @@ Se decidió por React debido a su flexibilidad, rendimiento y la gran comunidad 
 
 ### Consecuencias
 
-- **Ventajas:**
+- **Positivas:**
     - Componentización: Facilita la reutilización y el mantenimiento del código.
     - Rendimiento: El uso del Virtual DOM mejora la velocidad de actualización y renderizado.
-- **Desventajas:**
+- **Negativas:**
     - Curva de aprendizaje: Requiere tiempo para dominar conceptos como JSX y el ciclo de vida de los componentes.
     - Ecosistema fragmentado: Depende de otras bibliotecas para funcionalidades completas, lo que puede complicar la integración.
 
@@ -105,10 +105,10 @@ Se decidió por Github Pages debido a su integración directa con los repositori
 
 ### Consecuencias
 
-- **Ventajas:**
+- **Positivas:**
     - Integración con GitHub: Despliegue continuo y fácil administración de versiones directamente desde el repositorio.
     - Gratuito: No tiene costo adicional y es ideal para proyectos de tamaño pequeño a mediano.
-- **Desventajas:**
+- **Negativas:**
     - Limitaciones en características: No es adecuado para aplicaciones dinámicas o con backend complejo.
     - Almacenamiento limitado: No es ideal para proyectos que requieren grandes volúmenes de almacenamiento.
 
@@ -126,9 +126,9 @@ Se decidió por React Bootstrap debido a su familiaridad, amplia adopción y la 
 
 ### Consecuencias
 
-- **Ventajas:**
+- **Positivas:**
     - Familiaridad y popularidad: Bootstrap es ampliamente conocido y utilizado, lo que facilita encontrar recursos y soporte.
     - Componentes responsivos: Facilita el desarrollo de interfaces que se adaptan a diferentes tamaños de pantalla.
-- **Desventajas:**
+- **Negativas:**
     - Estilo clásico: Puede parecer menos moderno comparado con otras librerías de estilo más actuales.
     - Dependencia de Bootstrap: Aunque está integrado con React, sigue dependiendo de Bootstrap, lo cual puede limitar la personalización.
