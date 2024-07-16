@@ -38,7 +38,7 @@ Se decidió por la arquitectura de Flux debido a su capacidad para escalar y des
 La aplicación web necesita una arquitectura del servidor que sea altamente escalable, robusta y capaz de soportar un despliegue continuo y autónomo de sus diferentes componentes. Solo se consideró arquitectura de microservicios.
 
 ### Decisión
-Se implementará la arquitectura de microservicios debido a que permite escalar y desplegar servicios de manera independiente, facilitando la entrega continua de funcionalidades. Esta elección mejora la flexibilidad y el mantenimiento de la aplicación, permitiendo adaptarnos mejor a las demandas cambiantes del mercado y optimizando recursos de manera más eficiente comparado con una arquitectura monolítica. Además, utilizaremos Kubernetes para alojar los microservicios y asegurar la disponibilidad de los servicios.
+Se implementará la arquitectura de microservicios debido a que permite escalar y desplegar servicios de manera independiente, facilitando la entrega continua de funcionalidades. Esta elección mejora la flexibilidad y el mantenimiento de la aplicación, permitiendo adaptarnos mejor a las demandas cambiantes del mercado y optimizando recursos de manera más eficiente comparado con una arquitectura monolítica.
 
 ### Ventajas y Desventajas
 
