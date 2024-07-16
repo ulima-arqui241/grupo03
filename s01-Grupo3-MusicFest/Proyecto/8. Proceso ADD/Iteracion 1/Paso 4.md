@@ -2,11 +2,12 @@
 
 | Código | Decisión de Diseño |
 |----|----|
-| DEC-01  | La estructura lógica del cliente utilizará la arquitectura de referencia: MVC  |
+| DEC-01  | La estructura lógica del cliente utilizará la arquitectura de referencia: Flux  |
 | DEC-02  | La estructura lógica del servidor utilizará la arquitectura de referencia: Arquitectura de microservicios |
 | DEC-03  | La estructura física de la aplicación utilizará el patrón de despliegue en 3 capas (three tier) |
-| DEC-04  | La construcción de la interfaz de usuario del cliente se realizará utilizando el framework de frontend React Bootstrap |
+| DEC-04  | La interfaz de usuario se realizará utilizando la libreria de JavaScript: React |
 | DEC-05  | El despliegue de la aplicación utilizará la tecnología de Github Pages |
+| DEC-06  | La construcción de la interfaz de usuario se realizará utilizando el framework de frontend React Bootstrap |
 
 ## DC01 - Estructura lógica del cliente: Arquitectura de Flux
 
@@ -24,11 +25,11 @@ Se decidió por la arquitectura de Flux debido a su capacidad para escalar y des
 ### Ventajas y Desventajas
 
 - **Ventajas de Flux:**
-    - Flujo de datos unidireccional: Facilita el seguimiento y la gestión del estado.
-    - Integración con React: Diseñado para funcionar perfectamente con React.
+    - **Flujo de datos unidireccional**: Facilita el seguimiento y la gestión del estado.
+    - **Integración con React**: Diseñado para funcionar perfectamente con React.
 - **Desventajas de Flux:**
-    - Curva de aprendizaje: Puede ser difícil de entender al principio.
-    - Verboso: Requiere más código para implementar las acciones y las tiendas.
+    - **Curva de aprendizaje**: Puede ser difícil de entender al principio.
+    - **Verboso**: Requiere más código para implementar las acciones y las tiendas.
 
 ## DC02 - Estructura lógica del servidor: Arquitectura de Microservicios
 
@@ -111,12 +112,12 @@ Se decidió por Github Pages debido a su integración directa con los repositori
     - Limitaciones en características: No es adecuado para aplicaciones dinámicas o con backend complejo.
     - Almacenamiento limitado: No es ideal para proyectos que requieren grandes volúmenes de almacenamiento.
 
-## DC06 - Usar React Bootstrap como librería de estilos CSS
+## DC06 - Usar React Bootstrap como framework de estilos CSS
 
 ### Estado: Aceptado
 
 ### Contexto
-La aplicación web necesita una librería de estilos CSS que sea compatible con React y permita un desarrollo rápido y estilizado de la interfaz de usuario. En base a este contexto, se consideraron las siguientes opciones:
+La aplicación web necesita un framework de estilos que sea compatible con React y permita un desarrollo rápido y estilizado de la interfaz de usuario. En base a este contexto, se consideraron las siguientes opciones:
 - **React Bootstrap:** Una implementación de Bootstrap para React, que proporciona componentes estilizados y responsivos utilizando Bootstrap.
 - **Material UI:** Una biblioteca de componentes React que implementa el diseño de Material Design de Google, proporcionando un aspecto moderno y coherente.
 
@@ -131,8 +132,3 @@ Se decidió por React Bootstrap debido a su familiaridad, amplia adopción y la 
 - **Desventajas de React Bootstrap:**
     - Estilo clásico: Puede parecer menos moderno comparado con otras librerías de estilo más actuales.
     - Dependencia de Bootstrap: Aunque está integrado con React, sigue dependiendo de Bootstrap, lo cual puede limitar la personalización.
-
-
-
-
-!/[arqui](/s01-Grupo3-MusicFest/Proyecto/Imagenes/arqui.png)
