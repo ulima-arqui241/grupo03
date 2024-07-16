@@ -2,6 +2,5 @@
 
 | Código | Decisión de Diseño               | Fundamentación                                                                                                                             |
 |--------|----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
-| DEC-08  | Instanciar Módulo de Búsqueda y Filtrado | Facilitar la búsqueda y filtrado de eventos según varios criterios (categoría, ubicación, nombre). Permite manejar transacciones y relaciones complejas, asegurando la integridad de los datos y optimizando la gestión de pedidos y el historial de compras (CRN-03, CRN-05). |
-| DEC-09  | Instanciar Gestión de Pedidos    | Gestionar el proceso de pedidos, incluyendo la creación, actualización y cancelación de pedidos. Permite manejar transacciones y relaciones complejas, asegurando la integridad de los datos y optimizando la gestión de pedidos y el historial de compras (CRN-03, CRN-05). |
-| DEC-10  | Instanciar Sistema de Notificaciones | Enviar notificaciones al usuario sobre la confirmación de compras, cambios en eventos y recordatorios. Permite manejar transacciones y relaciones complejas, asegurando la integridad de los datos y optimizando la gestión de pedidos y el historial de compras (CRN-03, CRN-05). |
+| DEC-09  | Instanciar un diagrama de entidad relacion en la base de datos relacional | Implementar la conexion, usuarios y tablas en la base de datos (CRN-03, CRN-05). |
+| DEC-10  | Instanciar una coleccion de notificiaciones en la base de datos no relacional  | Implementar la conexion y coleccion de notificiaciones en la base de datos no relacional (CRN-03, CRN-05). |
