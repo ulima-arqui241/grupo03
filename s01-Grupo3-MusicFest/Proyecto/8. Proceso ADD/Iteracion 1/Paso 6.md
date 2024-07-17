@@ -1,8 +1,8 @@
 # Bosquejo de vistas de arquitectura
 
-## Arquitectura Flux (_Review_)
+## Arquitectura Flux
 
-![ArquitecturaFlux](/s01-Grupo3-MusicFest/Proyecto/Imagenes/Diagramas_iteraciones-Arquitectura%20flux%20cliente.drawio.png)
+
 
 ## Arquitectura de Microservicios
 

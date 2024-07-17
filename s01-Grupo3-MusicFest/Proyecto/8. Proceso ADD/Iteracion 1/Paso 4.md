@@ -4,7 +4,7 @@
 |----|----|
 | DEC-01  | La estructura lógica del cliente utilizará la arquitectura de referencia: Flux  |
 | DEC-02  | La estructura lógica del servidor utilizará la arquitectura de referencia: Arquitectura de microservicios |
-| DEC-03  | La interfaz de usuario se realizará utilizando la libreria de JavaScript: React |
+| DEC-03  | La estructura de la aplicación se realizará utilizando la libreria de JavaScript: React |
 | DEC-04  | El despliegue de la aplicación utilizará la tecnología de Github Pages |
 | DEC-05  | La construcción de la interfaz de usuario se realizará utilizando el framework de frontend React Bootstrap |
 
@@ -28,14 +28,16 @@ Se decidió por la arquitectura de Flux debido a su capacidad para escalar y des
     - **Integración con React**: Diseñado para funcionar perfectamente con React.
 - **Negativas:**
     - **Curva de aprendizaje**: Puede ser difícil de entender al principio.
-    - **Verboso**: Requiere más código para implementar las acciones y las tiendas.
+    - **Verboso**: Requiere más código para implementar las acciones.
 
 ## DC02 - Estructura lógica del servidor: Arquitectura de Microservicios
 
 ### Estado: Aceptado
 
 ### Contexto
-La aplicación web necesita una arquitectura del servidor que sea altamente escalable, robusta y capaz de soportar un despliegue continuo y autónomo de sus diferentes componentes. Solo se consideró arquitectura de microservicios.
+La aplicación web necesita una arquitectura del servidor que sea altamente escalable, robusta y capaz de soportar un despliegue continuo y autónomo de sus diferentes componentes. Solo se consideró arquitectura de microservicios. En base a este contexto, se contemplan las siguientes opciones:
+- **Monolítica**: Implica un diseño y desarrollo centrados en una única entidad donde una aplicación está integrada por un bloque coherente de código.
+- **Microservicios**: Implica un estilo arquitectónico donde una aplicación se descompone en múltiples servicios que pueden ser desarrollados y desplegados de manera autónoma, lo cual facilita la implementación y escalado individual de cada servicio.
 
 ### Decisión
 Se implementará la arquitectura de microservicios debido a que permite escalar y desplegar servicios de manera independiente, facilitando la entrega continua de funcionalidades. Esta elección mejora la flexibilidad y el mantenimiento de la aplicación, permitiendo adaptarnos mejor a las demandas cambiantes del mercado y optimizando recursos de manera más eficiente comparado con una arquitectura monolítica.
@@ -43,13 +45,13 @@ Se implementará la arquitectura de microservicios debido a que permite escalar 
 ### Consecuencias
 
 - **Positivas:**
-    - Escalabilidad independiente: Cada servicio puede escalarse de manera autónoma según la demanda.
-    - Despliegue continuo: Facilita la entrega continua de nuevas funcionalidades sin afectar a toda la aplicación.
+    - **Escalabilidad independiente**: Cada servicio puede escalarse de manera autónoma según la demanda.
+    - **Despliegue continuo**: Facilita la entrega continua de nuevas funcionalidades sin afectar a toda la aplicación.
 - **Negativas:**
-    - Desafíos operativos: Requiere una coordinación continua entre equipos y una gestión compleja de múltiples servicios.
-    - Consistencia y costo inicial de infraestructura: El manejo de la consistencia de datos entre servicios y la configuración de la infraestructura adecuada requieren atención adicional.
+    - **Desafíos operativos**: Requiere una coordinación continua entre equipos y una gestión compleja de múltiples servicios.
+    - **Consistencia y costo inicial de infraestructura**: El manejo de la consistencia de datos entre servicios y la configuración de la infraestructura adecuada requieren atención adicional.
 
-## DC03 - Construir interfaz de usuario usando React.js
+## DC03 - Construir el frontend utilizando la libreria de JavaScript: React
 
 ### Estado: Aceptado
 
@@ -86,29 +88,36 @@ Se decidió por Github Pages debido a su integración directa con los repositori
 ### Consecuencias
 
 - **Positivas:**
-    - Integración con GitHub: Despliegue continuo y fácil administración de versiones directamente desde el repositorio.
-    - Gratuito: No tiene costo adicional y es ideal para proyectos de tamaño pequeño a mediano.
+    - **Integración con GitHub**: Despliegue continuo y fácil administración de versiones directamente desde el repositorio.
+    - **Gratuito**: No tiene costo adicional y es ideal para proyectos de tamaño pequeño a mediano.
 - **Negativas:**
-    - Limitaciones en características: No es adecuado para aplicaciones dinámicas o con backend complejo.
-    - Almacenamiento limitado: No es ideal para proyectos que requieren grandes volúmenes de almacenamiento.
+    - **Limitaciones** en características: No es adecuado para aplicaciones dinámicas o con backend complejo.
+    - **Almacenamiento** limitado: No es ideal para proyectos que requieren grandes volúmenes de almacenamiento.
 
-## DC05 - Usar React Bootstrap como framework de estilos CSS
+## DC05 - Usar React Bootstrap como framework de frontend
 
 ### Estado: Aceptado
 
 ### Contexto
-La aplicación web necesita un framework de estilos que sea compatible con React y permita un desarrollo rápido y estilizado de la interfaz de usuario. En base a este contexto, se consideraron las siguientes opciones:
+La aplicación web necesita un framework de estilos que sea compatible con React y permita un desarrollo rápido y estilizado de la interfaz de usuario. Es crucial encontrar una solución que no solo garantice la estética visual, sino que también optimice el rendimiento general de la aplicación, asegurando tiempos de carga reducidos. En base a este contexto, se consideraron las siguientes opciones:
 - **React Bootstrap:** Una implementación de Bootstrap para React, que proporciona componentes estilizados y responsivos utilizando Bootstrap.
 - **Material UI:** Una biblioteca de componentes React que implementa el diseño de Material Design de Google, proporcionando un aspecto moderno y coherente.
 
 ### Decisión
-Se decidió por React Bootstrap debido a su familiaridad, amplia adopción y la facilidad de integración con proyectos React existentes. React Bootstrap proporciona componentes pre-estilizados que permiten un desarrollo rápido y consistente con los principios de diseño responsivo.
+Se decidió implementar **React Bootstrap** como framework de frontend para nuestra aplicación. Además de su familiaridad y la facilidad de integración con proyectos React existentes, Boostrap ofrece una variedad de componentes y estilos predefinidos que simplifican la creación de sitios web visualmente atractivos. Además, está diseñado para ser rápido y eficiente, con una base de código optimizada que ayuda a reducir la cantidad de datos transferidos, lo que se traduce en tiempos de carga más rápidos. Por otro lado, Material UI ofrece un diseño visualmente atractivo inspirado en Material Design (Google). No obstante, requiere dependencias adicionales de JavaScript en comparación con Bootstrap. Estas dependencias pueden impactar en el rendimiento general de la aplicación web, ya que los scripts adicionales necesarios pueden aumentar el tiempo de carga de la página, especialmente cuando hay muchos componentes o interacciones complejas involucradas.
 
 ### Consecuencias
 
 - **Positivas:**
-    - Familiaridad y popularidad: Bootstrap es ampliamente conocido y utilizado, lo que facilita encontrar recursos y soporte.
-    - Componentes responsivos: Facilita el desarrollo de interfaces que se adaptan a diferentes tamaños de pantalla.
+    - **Familiaridad y popularidad**: Bootstrap es ampliamente conocido y utilizado, lo que facilita encontrar recursos y soporte.
+    - **Rendimiento**: Ofrece un marco ligero con optimización de rendimiento y tiempos de carga rápidos.
+    - **Componentes responsivos**: Facilita el desarrollo de interfaces que se adaptan a diferentes tamaños de pantalla.
+    - **Soporte y documentación**: Amplio soporte comunitario y documentación extensa para facilitar el aprendizaje rápido y el uso de componentes pre-diseñados.
+    - Rendimiento
 - **Negativas:**
-    - Estilo clásico: Puede parecer menos moderno comparado con otras librerías de estilo más actuales.
-    - Dependencia de Bootstrap: Aunque está integrado con React, sigue dependiendo de Bootstrap, lo cual puede limitar la personalización.
+    - **Estilo clásico**: Puede parecer menos moderno comparado con otras librerías de estilo más actuales.
+    - **Personalización y aprendizaje**: Puede requerir personalización para necesidades específicas y una curva de aprendizaje inicial considerable.
+    - **Dependencia de Bootstrap**: Aunque está integrado con React, sigue dependiendo de Bootstrap, lo cual puede limitar la personalización.
+
+### Fuente
+https://www.material-tailwind.com/blog/bootstrap-vs-material-ui
