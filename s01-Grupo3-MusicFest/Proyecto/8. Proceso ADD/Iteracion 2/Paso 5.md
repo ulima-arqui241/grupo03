@@ -2,8 +2,8 @@
 
 | Código | Decisión de Diseño               | Fundamentación                                                                                                                             |
 |--------|----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
-| DEC-11  | Instanciar diagrama de entidad relacion en la base de datos empleando propiedades ACID | Implementar la conexion, usuarios y tablas en la base de datos (CRN-03, CRN-05). |
-| DEC-12  | Instanciar una coleccion de notificiaciones en la base de datos no relacional  | Implementar la conexion y coleccion de notificiaciones en la base de datos no relacional (CRN-03, CRN-05). |
+| DEC-11  | Instanciar diagrama de entidad relacion en la base de datos empleando propiedades ACID | Implementar la conexion, usuarios y tablas en la base de datos (CON-03). |
+| DEC-12  | Instanciar una coleccion de notificiaciones en la base de datos no relacional  | Implementar la conexion y coleccion de notificiaciones en la base de datos no relacional (CON-04). |
 
 ## DC11 - Instanciar diagrama de entidad relacion en la base de datos empleando propiedades ACID
 
