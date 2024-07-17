@@ -1,6 +1,6 @@
 # Bosquejo de vistas de arquitectura
 
-## Arquitectura Flux
+## Arquitectura Flux (_Review_)
 
 ![ArquitecturaFlux](/s01-Grupo3-MusicFest/Proyecto/Imagenes/Diagramas_iteraciones-Arquitectura%20flux%20cliente.drawio.png)
 

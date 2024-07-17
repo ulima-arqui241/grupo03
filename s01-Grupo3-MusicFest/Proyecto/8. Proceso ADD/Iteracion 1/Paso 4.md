@@ -4,10 +4,9 @@
 |----|----|
 | DEC-01  | La estructura lógica del cliente utilizará la arquitectura de referencia: Flux  |
 | DEC-02  | La estructura lógica del servidor utilizará la arquitectura de referencia: Arquitectura de microservicios |
-| DEC-03  | La estructura física de la aplicación utilizará el patrón de despliegue en 3 capas (three tier) |
-| DEC-04  | La interfaz de usuario se realizará utilizando la libreria de JavaScript: React |
-| DEC-05  | El despliegue de la aplicación utilizará la tecnología de Github Pages |
-| DEC-06  | La construcción de la interfaz de usuario se realizará utilizando el framework de frontend React Bootstrap |
+| DEC-03  | La interfaz de usuario se realizará utilizando la libreria de JavaScript: React |
+| DEC-04  | El despliegue de la aplicación utilizará la tecnología de Github Pages |
+| DEC-05  | La construcción de la interfaz de usuario se realizará utilizando el framework de frontend React Bootstrap |
 
 ## DC01 - Estructura lógica del cliente: Arquitectura de Flux
 
@@ -50,26 +49,7 @@ Se implementará la arquitectura de microservicios debido a que permite escalar 
     - Desafíos operativos: Requiere una coordinación continua entre equipos y una gestión compleja de múltiples servicios.
     - Consistencia y costo inicial de infraestructura: El manejo de la consistencia de datos entre servicios y la configuración de la infraestructura adecuada requieren atención adicional.
 
-## DC03 - Estructura física de la aplicación: Patrón de despliegue en 3 capas (three-tier)
-
-### Estado: Aceptado
-
-### Contexto
-La aplicación web necesita una estructura física que permita una separación clara de las responsabilidades y mejore la seguridad, la escalabilidad y el mantenimiento. En base a este contexto, se decidió implementar un patrón de despliegue en 3 capas (three-tier). No se consideraron otras opciones.
-
-### Decisión
-Se implementará el patrón de despliegue en 3 capas debido a su capacidad para separar claramente la presentación, la lógica de negocio y la capa de datos. Esta elección mejora la seguridad al aislar cada capa, facilita el mantenimiento y la escalabilidad de la aplicación, y optimiza el rendimiento al permitir una gestión más eficiente de los recursos.
-
-### Consecuencias
-
-- **Positivas:**
-    - Separación de responsabilidades: Mejora la organización del código y facilita el mantenimiento.
-    - Seguridad y escalabilidad: Cada capa puede ser escalada y asegurada de manera independiente, optimizando recursos y protegiendo los datos sensibles.
-- **Negativas:**
-    - Complejidad en la configuración inicial: Requiere una planificación y configuración más detallada al inicio.
-    - Latencia potencial: La comunicación entre capas puede introducir latencia si no se optimiza adecuadamente.
-
-## DC04 - Construir interfaz de usuario usando React.js
+## DC03 - Construir interfaz de usuario usando React.js
 
 ### Estado: Aceptado
 
@@ -91,7 +71,7 @@ Se decidió por React debido a su flexibilidad, rendimiento y la gran comunidad 
     - Curva de aprendizaje: Requiere tiempo para dominar conceptos como JSX y el ciclo de vida de los componentes.
     - Ecosistema fragmentado: Depende de otras bibliotecas para funcionalidades completas, lo que puede complicar la integración.
 
-## DC05 - Desplegar aplicación utilizando Github Pages
+## DC04 - Desplegar aplicación utilizando Github Pages
 
 ### Estado: Aceptado
 
@@ -112,7 +92,7 @@ Se decidió por Github Pages debido a su integración directa con los repositori
     - Limitaciones en características: No es adecuado para aplicaciones dinámicas o con backend complejo.
     - Almacenamiento limitado: No es ideal para proyectos que requieren grandes volúmenes de almacenamiento.
 
-## DC06 - Usar React Bootstrap como framework de estilos CSS
+## DC05 - Usar React Bootstrap como framework de estilos CSS
 
 ### Estado: Aceptado
 
