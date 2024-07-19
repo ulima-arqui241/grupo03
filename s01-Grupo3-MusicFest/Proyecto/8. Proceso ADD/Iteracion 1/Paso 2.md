@@ -18,9 +18,7 @@
 **Escenarios de Atributos de Calidad:**
 - QA-01
 - QA-02
-- QA-04
 - QA-05
-- QA-14
 - QA-17
 
 **Preocupaciones:**

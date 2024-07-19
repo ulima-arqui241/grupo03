@@ -1,31 +1,10 @@
 # Elementos de arquitecturas y asignacion de responsabilidades
 
-| Código | Decisión de Diseño          | Fundamentación                                                                                                                             |
-|--------|-----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
-| DEC-06  | Retirar las fuentes de datos locales dentro de la aplicación. | No se considera necesario almacenar datos localmente, dado que la conexión suele ser confiable. Se optará por utilizar conexiones directas con bases de datos PostgreSQL y MongoDB. (CON-04, CON-05). |
-| DEC-07  | Instanciar API Gateway dedicado para la comunicación con los microservicios propuestos | Encapsula la lógica necesaria para interactuar con los servidores de manera uniforme, ocultando los detalles de implementación específicos de cada servidor detrás de una capa de abstracción. Ayuda con la consecución de QA-04 y tiene impacto en conseguir UC-11.
+| Código | Decisión de Diseño          |
+|--------|-------------------|
+| DEC-06  | Instanciar API Gateway dedicado para la comunicación con los microservicios propuestos |
 
-
-## DEC-06 - Retirar las fuentes de datos locales dentro de la aplicación
-
-### Estado: Aceptado
-
-### Contexto
-Por considerarse innecesario almacenar datos localmente en la aplicación debido a la confiabilidad de la conexión, se decidió prescindir de las bases de datos locales y adoptar conexiones directas con PostgreSQL y MongoDB.
-
-### Decisión
-La decisión de utilizar conexiones directas con bases de datos PostgreSQL y MongoDB, se tomó para simplificar la arquitectura de la aplicación, reducir la complejidad de la sincronización de datos y aprovechar las características avanzadas de las bases de datos mencionadas.
-
-### Consecuencias
-
-- **Positivas:**
-    - **Reducción de complejidad:** Eliminar el almacenamiento local simplifica la arquitectura de la aplicación.
-    - **Acceso a características avanzadas:** Aprovecha las capacidades avanzadas de PostgreSQL y MongoDB para la gestión de datos.
-- **Negativas:**
-    - **Dependencia de la conexión:** Requiere una conexión constante y confiable a la base de datos.
-    - **Latencia potencial:** Puede introducir latencia en las operaciones de datos debido a la comunicación con la base de datos remota.
-
-## DEC-07- Instanciar API Gateway dedicado para la comunicación con los microservicios propuestos
+## DEC-06- Instanciar API Gateway dedicado para la comunicación con los microservicios propuestos
 
 ### Estado: Aceptado
 

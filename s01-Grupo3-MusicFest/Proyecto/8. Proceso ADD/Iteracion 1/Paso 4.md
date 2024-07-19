@@ -2,7 +2,7 @@
 
 | Código | Decisión de Diseño |
 |----|----|
-| DEC-01  | La estructura lógica del cliente utilizará la arquitectura de referencia: Flux  |
+| DEC-01  | La estructura lógica del cliente se construye utilizando Flux  |
 | DEC-02  | La estructura lógica del servidor utilizará la arquitectura de referencia: Arquitectura de microservicios |
 | DEC-03  | La estructura de la aplicación se realizará utilizando la libreria de JavaScript: React |
 | DEC-04  | El despliegue de la aplicación utilizará la tecnología de Github Pages |
@@ -13,13 +13,13 @@
 ### Estado: Aceptado
 
 ### Contexto
-La aplicación web necesita una arquitectura escalable, robusta y capaz de soportar un despliegue continuo en entornos de alto tráfico de usuarios concurrentes. Basándonos en este contexto, consideramos las siguientes opciones:
+La aplicación web necesita una arquitectura escalable, robusta y capaz de soportar un despliegue continuo en entornos de alto tráfico de usuarios concurrentes, lo cual se encuentra relacionado con la restricción CON-01 y daría soporte al desarrollo del escenario QA-01. Basándonos en este contexto, consideramos las siguientes opciones:
 
 - **MVC:** Un diseño donde la aplicación está dividida en tres componentes principales: el Modelo (datos), la Vista (interfaz de usuario) y el Controlador (lógica de negocio). Estos componentes trabajan juntos pero están separados.
 - **Flux:** Una arquitectura diseñada por Facebook para aplicaciones de React. Consiste en un flujo de datos unidireccional que simplifica la gestión del estado, con componentes bien definidos como acciones, despachadores, tiendas y vistas.
 
 ### Decisión
-Se decidió por la arquitectura de Flux debido a su capacidad para escalar y desplegar servicios de manera independiente y por su enfoque estructurado y predecible para la gestión del estado, particularmente para aplicaciones React. Esta elección mejora la flexibilidad y el mantenimiento de la aplicación, permitiendo adaptarnos mejor a las demandas cambiantes del mercado y optimizando los recursos de manera más eficiente comparado con una arquitectura monolítica.
+Se decidió por la arquitectura de **Flux** debido a su capacidad para escalar y desplegar servicios de manera independiente y por su enfoque estructurado y predecible para la gestión del estado, particularmente para aplicaciones React. Esta elección mejora la flexibilidad y el mantenimiento de la aplicación, permitiendo adaptarnos mejor a las demandas cambiantes del mercado y optimizando los recursos de manera más eficiente comparado con una arquitectura monolítica.
 
 ### Consecuencias
 
@@ -40,7 +40,7 @@ La aplicación web necesita una arquitectura del servidor que sea altamente esca
 - **Microservicios**: Implica un estilo arquitectónico donde una aplicación se descompone en múltiples servicios que pueden ser desarrollados y desplegados de manera autónoma, lo cual facilita la implementación y escalado individual de cada servicio.
 
 ### Decisión
-Se implementará la arquitectura de microservicios debido a que permite escalar y desplegar servicios de manera independiente, facilitando la entrega continua de funcionalidades. Esta elección mejora la flexibilidad y el mantenimiento de la aplicación, permitiendo adaptarnos mejor a las demandas cambiantes del mercado y optimizando recursos de manera más eficiente comparado con una arquitectura monolítica.
+Se implementará la arquitectura de microservicios debido a que permite escalar y desplegar servicios de manera independiente, facilitando la entrega continua de funcionalidades. Esta elección mejora la flexibilidad y el mantenimiento de la aplicación, permitiendo adaptarnos mejor a las demandas cambiantes del mercado y optimizando recursos de manera más eficiente comparado con una arquitectura monolítica. Esta decisión se alínea con la restricción CON-01 y daría soporte al desarrollo de los escenarios QA-01, QA-02, QA-04 y QA-06.
 
 ### Consecuencias
 
@@ -56,7 +56,7 @@ Se implementará la arquitectura de microservicios debido a que permite escalar 
 ### Estado: Aceptado
 
 ### Contexto
-La aplicación web necesita una interfaz de usuario moderna, dinámica y altamente interactiva. En base a este contexto, se consideraron las siguientes opciones para construir la interfaz de usuario:
+La aplicación web necesita una interfaz de usuario moderna, dinámica y altamente interactiva. Asimismo, se busca que el equipo de desarrollo tenga un buen dominio de la herramienta para para la optimización general de la construcción del frontend (CRN-02). En base a este contexto, se consideraron las siguientes opciones para construir la interfaz de usuario:
 - **React:** Una biblioteca de JavaScript enfocada en la construcción de interfaces de usuario a través de componentes reutilizables.
 - **Angular:** Un framework de JavaScript que proporciona una solución completa para el desarrollo de aplicaciones de una sola página.
 - **Vue:** Un framework de JavaScript progresivo conocido por su simplicidad y facilidad de integración con otros proyectos.
@@ -99,7 +99,7 @@ Se decidió por Github Pages debido a su integración directa con los repositori
 ### Estado: Aceptado
 
 ### Contexto
-La aplicación web necesita un framework de estilos que sea compatible con React y permita un desarrollo rápido y estilizado de la interfaz de usuario. Es crucial encontrar una solución que no solo garantice la estética visual, sino que también optimice el rendimiento general de la aplicación, asegurando tiempos de carga reducidos. En base a este contexto, se consideraron las siguientes opciones:
+La aplicación web necesita un framework de estilos que sea compatible con React y permita un desarrollo rápido y estilizado de la interfaz de usuario. Es crucial encontrar una solución que no solo garantice la estética visual, sino que también optimice el rendimiento general de la aplicación, asegurando tiempos de carga reducidos. Esto apoyaría al desarrollo del caso de uso UC-11 y escenario QA-11. En base a este contexto, se consideraron las siguientes opciones:
 - **React Bootstrap:** Una implementación de Bootstrap para React, que proporciona componentes estilizados y responsivos utilizando Bootstrap.
 - **Material UI:** Una biblioteca de componentes React que implementa el diseño de Material Design de Google, proporcionando un aspecto moderno y coherente.
 
