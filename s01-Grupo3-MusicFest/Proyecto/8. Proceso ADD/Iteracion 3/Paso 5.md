@@ -2,7 +2,7 @@
 
 | Código | Decisión de Diseño                                      | Fundamentación                                                                                                                              |
 |--------|---------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
-| DEC-16 | Integración de APIs de Pago Seguro    | Manejar pagos de manera segura, asegurando la protección de datos sensibles de los usuarios y cumpliendo con los estándares de seguridad.   |
+| DEC-15 | Integración de APIs de Pago Seguro    | Manejar pagos de manera segura, asegurando la protección de datos sensibles de los usuarios y cumpliendo con los estándares de seguridad.   |
 
 
 

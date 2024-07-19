@@ -28,7 +28,7 @@ Se decidió implementar un sistema de caché utilizando Redis. La alternativa co
   - Necesidad de monitorear y gestionar la coherencia de los datos entre la caché y la base de datos.
   - Potenciales problemas de memoria si no se configura y gestiona correctamente.
 
-## DEC-1 - Implementación de Monitorización y Logging con ELK Stack
+## DEC-14 - Implementación de Monitorización y Logging con ELK Stack
 
 ### Estado: Aceptado
 
