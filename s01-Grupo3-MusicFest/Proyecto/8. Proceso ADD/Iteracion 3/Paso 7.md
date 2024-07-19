@@ -2,15 +2,16 @@
 
 | No abordado | Parcialmente Abordado | Completamente abordado | Decisión de diseño     |
 | ----------- | --------------------- | ---------------------- | ---------------------- |
-| -           | CU-04                 | -                      | DEC-15             |
-| -           | CU-09                 | -                      | DEC-12, DEC-13, DEC-14, DEC-15|
-| CU-10       | -                     | -                      | -                  |
-| -           | QA-01                 | -                      | DEC-11, DEC-14, DEC-15 |
-| -           | QA-03                 | -                      | DEC-15             |
-| -           | QA-04                 | -                      | DEC-11, DEC-14     |
-| -           | QA-05                 | -                      | DEC-14, DEC-15     |
-| -           | QA-09                 | -                      | DEC-13, DEC-15     |
-| QA-12       | -                     | -                      | -                  |
-| -           | CRN-04                | -                      | DEC-11, DEC-14     |
-| CRN-05      |                       | -                      | -                  |
-| -           | CON-05                | -                      | DEC-15             |
+| -           | -                     | CU-03                  | DEC-15                 |
+| -           | -                     | CU-08                  | DEC-15                 |
+| -           | -                     | CU-11                  | DEC-12|
+| -           | -                     | CU-12                  | -                     |
+| -           | -                     | QA-02                  | DEC-15             |
+| -           | -                     | QA-06                  | DEC-14|
+| -           | QA-12                 | -                      | DEC-13|
+| -           | QA-13                 | -                      | DEC-13|
+| -           | -                     | QA-14                  | DEC-13|
+| -           | -                     | QA-15                  | DEC-13|
+| -           | -                     | QA-16                  | DEC-13|
+| -           | -                     | CON-02                 | DEC-15             |
+| -           | -                     | CON-03                 | DEC-15             |

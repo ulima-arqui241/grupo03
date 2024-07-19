@@ -11,15 +11,13 @@ Modelo entidad relación.
 
 ### Colección de notificaciones
 
-documento json.
-fecha_lectura
-
     ```
     {
         "_notification_id": ObjectId(".."),
         "user_id": ObjectId(".."),
         "mensaje": "string",
         "fecha_envio": ISODate("2024-01-01T00:00:00Z"),
+        "fecha_lectura": ISODate("2024-01-01T00:00:00Z"),
         "leido": "boolean"
     }
     ```

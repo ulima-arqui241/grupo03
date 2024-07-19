@@ -1,8 +1,6 @@
 # Elementos a Refinar 
 En esta iteración se busca ampliar la funcionalidad del sistema y asegurar la escalabilidad, entonces los elementos a refinar se centran en expandir las capacidades del sistema y manejar cargas adicionales.
 
-Diagrama de paquetes (módulos) - it1
-
 - **Modelo de datos**
    - Se plantea el desarrollo de decisiones arquitectónicas respecto a la selección del motor de datos relacional y no relacional, así como la creación de un modelo de datos que brinde soporte al conseguimiento de los casos de uso y escenarios propuestos.
 

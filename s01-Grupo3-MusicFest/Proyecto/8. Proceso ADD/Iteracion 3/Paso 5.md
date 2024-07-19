@@ -1,9 +1,8 @@
 # Elementos de arquitecturas y asignacion de responsabilidades
 
-| Código | Decisión de Diseño                                      | Fundamentación                                                                                                                              |
-|--------|---------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
-| DEC-15 | Integración de APIs de Pago Seguro    | Manejar pagos de manera segura, asegurando la protección de datos sensibles de los usuarios y cumpliendo con los estándares de seguridad.   |
-
+| Código | Decisión de Diseño        |
+|--------|-------------------------|
+| DEC-15 | Integración de APIs de Pago Seguro    |
 
 
 ## DEC-15 - Integración de APIs de Pago Seguro (Stripe, PayPal)
