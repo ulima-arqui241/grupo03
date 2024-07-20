@@ -2,7 +2,7 @@
 
 ## Arquitectura Flux
 
-![ArquitecturaFlux](/s01-Grupo3-MusicFest/Proyecto/Imagenes/FluxArchitecture.png)
+![ArquitecturaFlux](/s01-Grupo3-MusicFest/Proyecto/Imagenes/Diagramas_iteraciones-Arquitectura%20flux%20cliente-iteracion-3.drawio.png)
 
 ## Arquitectura de Microservicios
 
