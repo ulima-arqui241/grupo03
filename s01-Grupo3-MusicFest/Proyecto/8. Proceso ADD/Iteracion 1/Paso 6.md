@@ -2,7 +2,7 @@
 
 ## Arquitectura Flux
 
-
+![ArquitecturaFlux](/s01-Grupo3-MusicFest/Proyecto/Imagenes/FluxArchitecture.png)
 
 ## Arquitectura de Microservicios
 
