@@ -2,10 +2,10 @@
 
 | Código | Decisión de Diseño        |
 |--------|-------------------------|
-| DEC-15 | Integración de APIs de Pago Seguro    |
+| DEC-16 | Integración de APIs de Pago Seguro    |
 
 
-## DEC-15 - Integración de APIs de Pago Seguro (Stripe, PayPal)
+## DEC-16 - Integración de APIs de Pago Seguro (Stripe, PayPal)
 
 ### Estado: Aceptado
 
