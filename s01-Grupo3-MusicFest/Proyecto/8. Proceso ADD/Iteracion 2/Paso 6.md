@@ -1,8 +1,10 @@
 # Bosquejo de vistas de arquitectura
 
-Diagramación por módulo (ampliado)
+## Modelo entidad relación
 
-Modelo entidad relación.
+![ModeloER](/s01-Grupo3-MusicFest/Proyecto/Imagenes/ModeloEntidadRelacion.png)
+
+
 ## Modelo de datos relacional
 
 ![ModeloDeDatos](/s01-Grupo3-MusicFest/Proyecto/Imagenes/Modelo%20de%20datos%20SQL.png)
